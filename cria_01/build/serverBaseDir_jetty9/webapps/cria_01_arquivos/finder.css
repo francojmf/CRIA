@@ -1,0 +1,96 @@
+#advanced-search {
+	padding: 5px 0px 15px; width: 100%; text-align: left;
+}
+#advanced-search-toggle {
+	cursor: pointer;
+}
+#search-query-explained {
+	padding: 10px 0px;
+}
+#search-query-explained span.term {
+	font-weight: bold;
+}
+#search-query-explained span.date {
+	font-weight: bold;
+}
+#search-query-explained span.when {
+	font-weight: bold;
+}
+#search-query-explained span.branch {
+	font-weight: bold;
+}
+#search-query-explained span.node {
+	font-weight: bold;
+}
+#search-query-explained span.op {
+	font-weight: bold;
+}
+#search-query-explained span.op {
+	text-transform: uppercase;
+}
+#search-results li.search-result .mime-pdf {
+	background: url("../../system/images/pdf_button.png") no-repeat; padding-left: 20px;
+}
+#search-results .search-pagination {
+	margin: 0px auto; clear: both;
+}
+#search-results .pagination {
+	margin: 0px auto; clear: both;
+}
+#search-results .search-pages-counter {
+	margin: 0px auto; clear: both;
+}
+#highlighter-start {
+	height: 0px; display: none; opacity: 0;
+}
+#highlighter-end {
+	height: 0px; display: none; opacity: 0;
+}
+span.highlight {
+	padding: 1px 4px; font-weight: bold; background-color: rgb(255, 255, 204);
+}
+ul.autocompleter-choices {
+	border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(221, 221, 221) rgb(238, 238, 238); list-style: none; margin: 0px; padding: 0px; border-image: none; text-align: left; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; position: absolute; z-index: 50; background-color: white;
+}
+ul.autocompleter-choices li {
+	background: none; padding: 0.1em 1.5em 0.1em 1em; font-size: 1em; font-weight: normal; position: relative; cursor: pointer;
+}
+ul.autocompleter-choices li.autocompleter-selected {
+	color: rgb(255, 255, 255); background-color: rgb(68, 68, 68);
+}
+ul.autocompleter-choices span.autocompleter-queried {
+	font-weight: bold;
+}
+ul.autocompleter-choices li.autocompleter-selected span.autocompleter-queried {
+	color: rgb(159, 207, 255);
+}
+.autocomplete-suggestions {
+	background: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); border-image: none; overflow: auto; cursor: default; box-shadow: 1px 4px 3px rgba(50,50,50,0.64); -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+}
+.autocomplete-suggestion {
+	padding: 2px 5px; overflow: hidden; white-space: nowrap;
+}
+.autocomplete-no-suggestion {
+	padding: 2px 5px;
+}
+.autocomplete-selected {
+	background: rgb(240, 240, 240);
+}
+.autocomplete-suggestions strong {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.autocomplete-group {
+	padding: 2px 5px;
+}
+.autocomplete-group strong {
+	color: rgb(0, 0, 0); font-size: 16px; font-weight: bold; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+ul#finder-filter-select-list {
+	top: 4em !important;
+}
+.finder-selects .inputbox {
+	width: 180px;
+}
+div#finder-filter-window .filter-branch .finder-selects {
+	float: left;
+}

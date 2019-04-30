@@ -1,0 +1,24 @@
+ul#accordeonck162 {
+	margin: 0px; padding: 5px;
+}
+ul#accordeonck162 li {
+	background: none; list-style: none; margin: 0px; text-align: left; color: rgb(102, 102, 102); border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul#accordeonck162 .accordeonck_outer {
+	display: block;
+}
+ul#accordeonck162 li ul li {
+	margin: 0px 0px 0px 20px; border-top-color: rgb(221, 221, 221); border-bottom-color: currentColor; border-top-width: 1px; border-bottom-width: medium; border-top-style: solid; border-bottom-style: none; list-style-type: square;
+}
+ul#accordeonck162 li a {
+	background: none; margin: 0px; padding: 7px 4px 7px 15px; text-align: left; color: rgb(85, 85, 85); text-decoration: none; display: block;
+}
+ul#accordeonck162 li a:hover {
+	color: rgb(0, 0, 0);
+}
+ul#accordeonck162 ul li a:focus {
+	color: rgb(0, 0, 0);
+}
+ul#accordeonck162 li a span.accordeonckdesc {
+	display: block;
+}

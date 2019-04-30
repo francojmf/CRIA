@@ -1,0 +1,13 @@
+@font-face {
+	font-family: Cinzel;
+	src: local("Cinzel Regular"), local("Cinzel-Regular"), url(https://fonts.gstatic.com/s/cinzel/v8/8vIJ7ww63mVu7gt79mT9.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Lato;
+	src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wWA.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}

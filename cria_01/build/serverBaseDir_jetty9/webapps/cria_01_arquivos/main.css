@@ -1,0 +1,133 @@
+@font-face {
+	font-family: OpenDyslexic;
+	src: url(fonts/OpenDyslexic-Regular.otf) format("opentype");
+}
+div#accessibility-links {
+	padding: 0px; border: 1px solid rgb(181, 181, 181); border-image: none; z-index: 99999; cursor: auto; box-sizing: content-box; background-color: rgb(238, 238, 238);
+}
+html.scr_highcontrast {
+	-webkit-filter: invert(100%);
+}
+.topright {
+	top: 0px; right: 0px;
+}
+.topleft {
+	left: 0px; top: 0px;
+}
+.bottomright {
+	right: 0px; bottom: 0px;
+}
+.bottomleft {
+	left: 0px; bottom: 0px;
+}
+div.bottomleft#accessibility-links div#tts_message {
+	left: 0px; top: -37px;
+}
+div.topleft#accessibility-links div#tts_message {
+	left: 0px; top: 37px;
+}
+.fixed {
+	position: fixed;
+}
+.absolute {
+	position: absolute;
+}
+.relative {
+	clear: both; float: none; position: relative;
+}
+div.scbasebin {
+	border: currentColor !important; border-image: none !important; width: 50px; height: 35px; font-size: 13px; float: left; position: relative;
+}
+div.text.screenreader.scbasebin {
+	background: url("images/logo.png") no-repeat 2px 0px; width: 80px; text-align: center;
+}
+div.scr_nolabel.text.screenreader.scbasebin {
+	width: 40px;
+}
+div.speaker.scbasebin {
+	width: 140px; text-align: center;
+}
+div#frclr {
+	width: 0px; height: 25px; clear: left;
+}
+div#accessibility-links label {
+	height: 20px; color: rgb(17, 17, 17); line-height: 12px; padding-left: 32px; font-size: 11px; font-weight: bold; margin-top: 6px; float: left; cursor: auto;
+}
+div#accessibility-links label.startapp.fr_label {
+	background: none !important;
+}
+div#accessibility-links button {
+	margin: 5px 0px 0px; padding: 0px; border: currentColor !important; border-image: none !important; width: 32px; height: 32px; vertical-align: middle; display: inline-block; cursor: pointer; background-size: 70%;
+}
+div#accessibility-links button#fr_screenreader_play {
+	background: url("images/play.png") no-repeat; border: currentColor !important; border-image: none !important; color: transparent; line-height: 0; font-size: 0px !important; margin-left: 2px;
+}
+div#accessibility-links button#fr_screenreader_pause {
+	background: url("images/pause.png") no-repeat; border: currentColor !important; border-image: none !important; color: transparent; line-height: 0; font-size: 0px !important;
+}
+div#accessibility-links button.active#fr_screenreader_pause {
+	background: url("images/paused_active.png") no-repeat;
+}
+div#accessibility-links button#fr_screenreader_stop {
+	background: url("images/stop.png") no-repeat; border: currentColor !important; border-image: none !important; color: transparent; line-height: 0; font-size: 0px !important;
+}
+div#accessibility-links button#fr_screenreader_font_increase {
+	background: url("images/increase.png") no-repeat; border: currentColor !important; border-image: none !important; color: transparent; line-height: 0; font-size: 0px !important; margin-left: 8px;
+}
+div#accessibility-links button#fr_screenreader_font_decrease {
+	background: url("images/decrease.png") no-repeat; border: currentColor !important; border-image: none !important; color: transparent; line-height: 0; font-size: 0px !important;
+}
+div#accessibility-links button#fr_screenreader_font_reset {
+	background: url("images/reset.png") no-repeat; border: currentColor !important; border-image: none !important; color: transparent; line-height: 0; font-size: 0px !important;
+}
+div#accessibility-links button#fr_screenreader_font_family {
+	background: url("images/dyslexic.png") no-repeat; border: currentColor !important; border-image: none !important; color: transparent; line-height: 0; font-size: 0px !important;
+}
+div#accessibility-links button#fr_screenreader_highcontrast {
+	background: url("images/highcontrast.png") no-repeat; border: currentColor !important; border-image: none !important; line-height: 0; font-size: 0px !important; margin-left: 10px;
+}
+div#accessibility-links button#fr_screenreader_highcontrast2 {
+	background: url("images/highcontrast2.png") no-repeat; border: currentColor !important; border-image: none !important; color: transparent; line-height: 0; font-size: 0px !important;
+}
+div#accessibility-links button#fr_screenreader_highcontrast3 {
+	background: url("images/highcontrast3.png") no-repeat; border: currentColor !important; border-image: none !important; color: transparent; line-height: 0; font-size: 0px !important;
+}
+div#tts_message {
+	left: -162px; top: -1px; width: 162px; position: absolute; z-index: 10000; cursor: auto; background-color: rgb(238, 238, 238);
+}
+div#msgtext {
+	background: url("images/exclamation.png") no-repeat 3px 0%; padding: 3px 0px 2px 35px; border: 1px solid rgb(181, 181, 181); border-image: none; width: 125px; height: 30px; text-align: center; line-height: 16px; font-size: 11px; font-weight: bold;
+}
+div#stopbtn {
+	margin: 2px 0px 0px 5px; padding: 2px; width: 32px; height: 32px; float: left; cursor: pointer; background-image: url("images/acc_stop.png"); background-repeat: no-repeat;
+}
+div#playicon {
+	width: 162px; height: 37px; z-index: 99999; background-image: url("images/waves.gif") !important;
+}
+div#sm2-container {
+	width: 0px; height: 0px; display: none; position: absolute;
+}
+div.volume_step {
+	border: 1px solid rgb(51, 51, 51); border-image: none; width: 5px; bottom: 5px; margin-left: 2px; position: absolute; cursor: pointer;
+}
+div.active.volume_step {
+	background-color: rgb(0, 0, 0);
+}
+#volume_step1 {
+	left: 2px; height: 5px;
+}
+#volume_step2 {
+	left: 11px; height: 10px;
+}
+#volume_step3 {
+	left: 20px; height: 15px;
+}
+#volume_step4 {
+	left: 29px; height: 20px;
+}
+#volume_step5 {
+	left: 38px; height: 25px;
+}
+*.scr_dyslexic {
+	font-family: "OpenDyslexic",Arial,sans-serif;
+}

@@ -1,0 +1,135 @@
+.bfQuickMode .bfSignatureWrap .control-label {
+	vertical-align: top !important;
+}
+.bfQuickMode .bfSignature {
+	width: 45%; display: inline-block;
+}
+.bfQuickMode .bfSignature canvas {
+	width: 100%; height: 200px;
+}
+.bfQuickMode .bfSignatureCanvasBorder {
+	border: 5px solid rgba(0, 0, 0, 0.05); border-image: none; width: 100%; height: 200px; margin-bottom: 5px;
+}
+.bfCalendarResponsiveContainer .picker__button--today {
+	margin: 0px !important; border-radius: 0px !important; border: currentColor !important; border-image: none !important; height: auto !important; color: black !important; box-shadow: none !important; text-shadow: none !important; -webkit-border-radius: 0; -moz-border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.bfCalendarResponsiveContainer .picker__button--clear {
+	margin: 0px !important; border-radius: 0px !important; border: currentColor !important; border-image: none !important; height: auto !important; color: black !important; box-shadow: none !important; text-shadow: none !important; -webkit-border-radius: 0; -moz-border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.bfCalendarResponsiveContainer .picker__select--year {
+	width: auto !important; font-size: 0.8em !important; margin-right: 0.25em !important; margin-left: 0.25em !important; float: none !important; min-width: 1px !important; max-width: none !important;
+}
+.bfCalendarResponsiveContainer .picker__select--month {
+	width: auto !important; font-size: 0.8em !important; margin-right: 0.25em !important; margin-left: 0.25em !important; float: none !important; min-width: 1px !important; max-width: none !important;
+}
+@media all and (min-height:33.87em)
+{
+.bfCalendarResponsiveContainer .picker__box {
+	display: inline-block !important;
+}
+}
+@media all and (min-width:24.5em)
+{
+.bfCalendarResponsiveContainer .picker__select--month {
+	font-size: 0.8em !important; margin-top: -0.5em !important;
+}
+.bfCalendarResponsiveContainer .picker__select--year {
+	font-size: 0.8em !important; margin-top: -0.5em !important;
+}
+}
+.bfQuickMode .icon-asterisk {
+	color: red; font-size: 9px; vertical-align: text-top;
+}
+.bfQuickMode textarea {
+	height: 100px;
+}
+.bfQuickMode input[type=text] {
+	width: 100%; max-width: 50%;
+}
+.bfQuickMode textarea {
+	width: 100%; max-width: 50%;
+}
+.bfQuickMode select {
+	width: 100%; max-width: 50%;
+}
+.bfQuickMode .uneditable-input {
+	width: 100%; max-width: 50%;
+}
+@media all and (max-width:767px)
+{
+.bfQuickMode .bfSignature {
+	width: 90%; min-width: 90%; max-width: 90%;
+}
+.bfQuickMode .controls .control-label {
+	width: 90% !important; display: block !important; min-width: 90% !important; max-width: 90% !important;
+}
+.bfQuickMode input[type=text] {
+	width: 94%; min-width: 94%; max-width: 94%;
+}
+.bfQuickMode textarea {
+	width: 94%; min-width: 94%; max-width: 94%;
+}
+.bfQuickMode select {
+	width: 94%; min-width: 94%; max-width: 94%;
+}
+.bfQuickMode .uneditable-input {
+	width: 94%; min-width: 94%; max-width: 94%;
+}
+}
+@media not all
+{
+.bfQuickMode fieldset legend {
+	margin-bottom: 0px;
+}
+.bfQuickMode fieldset .row-fluid {
+	padding-top: 18px;
+}
+}
+.bfQuickMode .controls .control-label {
+	width: 35%; vertical-align: text-top; min-width: 110px;
+}
+.bfLabelBlock {
+	display: block !important;
+}
+.bfQuickMode fieldset {
+	margin-bottom: 3px;
+}
+.bfQuickMode .bfCancelButton {
+	margin-left: 5px;
+}
+@media all and (max-width:767px)
+{
+.bfQuickMode #recaptcha_image {
+	width: 95% !important; height: 60px !important;
+}
+.bfQuickMode #recaptcha_image img {
+	width: 95% !important; height: 60px !important;
+}
+.bfQuickMode .input-recaptcha {
+	margin-bottom: 8px;
+}
+.bfCaptchaField {
+	width: 84%; min-width: 84%; max-width: 84%;
+}
+}
+.ff_capimg {
+	margin-top: 9px;
+}
+#bfFileQueue {
+	margin-bottom: 10px; position: absolute;
+}
+#bfSubmitMessage {
+	padding: 10px; border: 2px solid rgb(229, 229, 229); border-image: none; width: 350px; margin-top: 5px; border-bottom-right-radius: 50px 25px; background-color: rgb(245, 245, 245); -moz-border-radius-bottomright: 50px 25px;
+}
+#bfFileQueue {
+	padding: 10px; border: 2px solid rgb(229, 229, 229); border-image: none; width: 350px; margin-top: 5px; z-index: 1100; border-bottom-right-radius: 50px 25px; background-color: rgb(245, 245, 245); -moz-border-radius-bottomright: 50px 25px;
+}
+.bfFileQueueItem {
+	margin: 5px; padding: 10px; border: 2px solid rgb(229, 229, 229); border-image: none; background-color: rgb(245, 245, 245);
+}
+.bfQuickMode .pull-left {
+	float: left;
+}
+.bfQuickMode .pull-right {
+	float: right;
+}
