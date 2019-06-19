@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title> Aviso BD </title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+
+			window.alert(window.location);
+
+                        window.onload = f;
+                        /* Escrevendo as informações acima no conteúdo do documento: */
+			function f(){
+				conteudo = document.body;
+				conteudo.innerHTML += "<br/> window.location: " +window.location;
+				
+			}
+			
+	</script>
+</head>
+<body>	
+    <h1>Informação enviada ao Banco de Dados !</h1>
+
+	<p href="${pageContext.request.contextPath}"> Voltar </p>     
+</body>
+</html>

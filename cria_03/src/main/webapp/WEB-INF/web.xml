@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+  <welcome-file-list>
+    <welcome-file>login01.htm</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>home.jsp</welcome-file>
+    <welcome-file>menu.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>cadastro.jsp</welcome-file>
+    <welcome-file>pedido.jsp</welcome-file>
+  </welcome-file-list>
+  
+     <servlet>
+    <servlet-name>cria_03</servlet-name>
+    <servlet-class>main.java.controller.Autenticador</servlet-class>
+    <init-param>
+      <param-name>Autenticador</param-name>
+      <param-value>cria_03</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  <servlet>
+  <servlet-name>cadastro</servlet-name>
+  <servlet-class>main.java.controller.ControleCadastro</servlet-class>
+</servlet>
+  <servlet-mapping>
+    <servlet-name>cria_03</servlet-name>
+    <url-pattern>/Autenticador</url-pattern>
+  </servlet-mapping>
+  
+ <servlet-mapping>
+  <servlet-name>cadastro</servlet-name>
+  <url-pattern>/ControleCadastro</url-pattern>
+</servlet-mapping> 
+  
+</web-app>

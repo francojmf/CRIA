@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/back_end_cria2" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="francojmf" password="1245" 
+               driverClassName="org.mariadb.jdbc.Driver"
+               url="jdbc:mariadb://127.0.0.1:3306/back_end_cria2?useSSL=false"/>
+
+</Context>
