@@ -21,7 +21,7 @@ import model.UserInfo;
 public class BDcontrol {
     
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("cadastro_usuario");        
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("pedido_cria");        
         EntityManager em = emf.createEntityManager();
       
         UserInfo u = em.find(UserInfo.class, 1L);
@@ -29,7 +29,7 @@ public class BDcontrol {
         System.out.println(u.getCidade().getNomeCid());
         
 
-        
+        /*
         String nomeCidade = "Caçapava-SP";
         String query = "SELECT u FROM usuario_info u, IN (u.cidade) c " +
                        "WHERE c.cidade = :nomeCidade";
@@ -44,7 +44,7 @@ public class BDcontrol {
             System.out.println(ul.getNome());
         }
         
-        /* Criando um novo usuário que não possui
+         Criando um novo usuário que não possui
         nenhuma cidade associada:
         */
         /*

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package model;
 
 import model.UsuarioDAO;
@@ -31,7 +26,7 @@ public class UsuarioDAOMariaDB10 implements UsuarioDAO{
             /* Notar que poderia ser substituida por
             uma chamada de get instance de uma conexão já aberta. 
             */
-            conexao = DriverManager.getConnection("jdbc:mariadb://127.0.0.1:3306/back_end_cria2","francojmf", "1245"); 
+            conexao = DriverManager.getConnection("jdbc:mariadb://127.0.0.1:3306/back_end_cria1","francojmf", "1245"); 
             
             System.out.println("Conectado.. Usuario DAO...");
         } catch (Exception e){
@@ -40,32 +35,8 @@ public class UsuarioDAOMariaDB10 implements UsuarioDAO{
     }
     
     @Override
-    public Usuario insert(String nomeUsuario){
-         Usuario u =null;
-    try {
-        PreparedStatement pSt = conexao
-                .prepareStatement("insert into usuario(nome,nomeusuario,senha,entidade,cpf,id_cidade,telefone,obs,id_papel) values(?,?,?,?,?,?,?,?,?);");
-        // Parameters start with 1
-        nomeUsuario = Usuario.getNomeUsuario();
-        pSt.setString(1, Usuario.getNome());
-        pSt.setString(2, Usuario.getNomeUsuario());
-        pSt.setString(3, Usuario.getSenha());
-        pSt.setString(4, Usuario.getEntidade());
-        pSt.setString(5, Usuario.getCpf());
-        pSt.setLong(6, Usuario.getId_cidade());
-        pSt.setString(7, Usuario.getTel());
-        pSt.setString(8, Usuario.getObs());
-        pSt.setLong(9, Usuario.getPapel());
-        //pSt.setBoolean(10, usuario.getAprovado());
-        pSt.executeUpdate();
-        u= this.findByNomeUsuario(Usuario.getNomeUsuario());
-        
-        
-    } catch (SQLException e) {
-        e.printStackTrace();
-        //System.out.println("Erro ao gravar Dados !!! ");
-    }
-	return u;
+    public Usuario insert(Usuario usuario){
+    	throw new UnsupportedOperationException("Not supported yet.");
     }
 
 
@@ -73,7 +44,7 @@ public class UsuarioDAOMariaDB10 implements UsuarioDAO{
     public Usuario findById(Long id) {
         Usuario u = null;
         try{        
-            PreparedStatement comandoSQLp = conexao.prepareStatement("select * from back_end_cria2.usuario where id = ?");  
+            PreparedStatement comandoSQLp = conexao.prepareStatement("select * from back_end_cria1.usuario where id = ?");  
             comandoSQLp.setString(1, id.toString());
             ResultSet rs = comandoSQLp.executeQuery();
             System.out.println("Conectei...");
@@ -113,7 +84,7 @@ public class UsuarioDAOMariaDB10 implements UsuarioDAO{
             u.setNome(rs.getString(4));
           
             /* Se utilizar o padrão singleton, não fechar a conexão. */
-            comandoSQLp.close();
+            //comandoSQLp.close();
             rs.close();
             //conexao.close();
             return u;
@@ -158,10 +129,6 @@ public class UsuarioDAOMariaDB10 implements UsuarioDAO{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
-    public boolean delete(Long id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
     
 	

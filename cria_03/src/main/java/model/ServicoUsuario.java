@@ -14,7 +14,7 @@ import model.Usuario;
  * @author francojmf
  */
 public interface ServicoUsuario {
-    public Usuario insert(String nomeUsuario) throws SQLException;
+    public Usuario insert(Usuario usuario) throws SQLException;
     public Usuario findByNomeUsuario(String nomeUsuario);
 
     

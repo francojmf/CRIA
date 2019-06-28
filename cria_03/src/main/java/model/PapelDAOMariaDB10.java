@@ -30,7 +30,7 @@ public class PapelDAOMariaDB10 implements PapelDAO{
             /* Notar que poderia ser substituida por
             uma chamada de get instance de uma conexão já aberta. 
             */
-            conexao = DriverManager.getConnection("jdbc:mariadb://localhost:3306/back_end_cria2","francojmf", "1245"); //usuario/usuario123
+            conexao = DriverManager.getConnection("jdbc:mariadb://localhost:3306/back_end_cria1","francojmf", "1245"); //usuario/usuario123
 
             //conexao = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/back_end_dao?" +
             //                       "user=root&password=root");
@@ -48,7 +48,7 @@ public class PapelDAOMariaDB10 implements PapelDAO{
     public Papel findById(Long id) {
         Papel p = null;
         try{        
-            PreparedStatement comandoSQLp = conexao.prepareStatement("select * from back_end_cria2.papel where id = ?");  
+            PreparedStatement comandoSQLp = conexao.prepareStatement("select * from back_end_cria1.papel where id = ?");  
             comandoSQLp.setString(1, id.toString());
             ResultSet rs = comandoSQLp.executeQuery();
             rs.next();

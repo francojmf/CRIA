@@ -29,9 +29,9 @@ public class ServicoUsuarioImpl implements ServicoUsuario {
 	UsuarioDAO uDao = new UsuarioDAOMariaDB10();
 
     @Override
-    public Usuario insert(String nomeUsuario) throws SQLException {
-    	nomeUsuario = Usuario.getNomeUsuario();
-    	 Usuario usuarioNovo =  uDao.insert(nomeUsuario);
+    public Usuario insert(Usuario usuario) throws SQLException {
+    	//uDao = usuario.getNomeUsuario();
+    	 Usuario usuarioNovo =  uDao.insert(usuario);
        return usuarioNovo;
     } // chama o DAO  
 

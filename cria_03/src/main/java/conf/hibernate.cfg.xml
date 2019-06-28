@@ -4,10 +4,10 @@
 		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.driver_class">org.mariadb.jdbc.Driver</property>
         <property name="hibernate.connection.password">1245</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/blogspot</property>
+        <property name="hibernate.connection.url">jdbc:mariadb://localhost:3306/back_end_cria1</property>
         <property name="hibernate.connection.username">francojmf</property>
-        <property name="hibernate.default_schema">blogspot</property>
+        <property name="hibernate.default_schema">pedido_cria</property>
     </session-factory>
 </hibernate-configuration>

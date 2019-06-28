@@ -59,6 +59,11 @@ public class Autenticador extends HttpServlet {
             }  
         }//if-else 
     }//doPost
+  
+    
+}//Autenticador.java
+
+/*
     
 	protected void insert(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -110,6 +115,5 @@ public class Autenticador extends HttpServlet {
 			out.println("<p class='erro'>O contato não foi cadastrado: </p>" + e);
 			out.println("<SPAN href=\"${pageContext.request.contextPath}\">Sair</SPAN>");
 		}
-	}    
-    
-}//Autenticador.java
+	}  
+*/

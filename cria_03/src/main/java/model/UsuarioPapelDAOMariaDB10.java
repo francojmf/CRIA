@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package model;
 
 import model.UsuarioPapelDAO;
@@ -31,7 +26,7 @@ public class UsuarioPapelDAOMariaDB10 implements UsuarioPapelDAO{
             /* Notar que poderia ser substituida por
             uma chamada de get instance de uma conexão já aberta. 
             */
-            conexao = DriverManager.getConnection("jdbc:mariadb://127.0.0.1:3306/back_end_cria2","francojmf", "1245");
+            conexao = DriverManager.getConnection("jdbc:mariadb://127.0.0.1:3306/back_end_cria1","francojmf", "1245");
             
         } catch (Exception e){
             System.out.print("Erro de conexão UsuarioPapelDAOMysql");
