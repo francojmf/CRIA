@@ -26,7 +26,7 @@
         <link rel="stylesheet"
         href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <SCRIPT src="../../static/js/jquery.min.js" type="text/javascript"></SCRIPT>  
-	 
+        <script> function funcao1() { alert("Pedido enviado com sucesso !!"); } </script> 	 	
 	<title>Pedido</title>	 
 	 
 	</head>
@@ -37,7 +37,7 @@
  
 <hr>
  
-<form class="form-actions" action="gravaPedido.jsp" method="post">
+<form class="form-actions" action="../../ControlePedido.action" method="post">
 		 
 	<label class="span6"> Entidade: 
 	<input class="span6" type="text" name="edtEntidade" size="50"/> </label><br> 
@@ -46,45 +46,44 @@
 	<input type="text" name="edtCNPJ" size="15"/> </label><br> 
 
 	<label class="span6"> Nome da Criança: 
-	<input type="text" name="edtNomeCri" size="60"/> </label><br> 
+	<input type="text" name="edtNomecri" size="60"/> </label><br> 
 
 	<label class="span6"> Idade da Criança: 
 	<input type="text" name="edtIdade" size="10"/> </label><br> 
 
-	<label class="span6"> Medida A - Altura das costas(cm)
+	<label class="span4"> Medida A - Altura das costas(cm)
 	<input type="text" name="edtMedA" size="10"/> </label><br> 
 
-	<label class="span6"> Medida B - Largura do quadril(cm)
+	<label class="span4"> Medida B - Largura do quadril(cm)
 	<input type="text" name="edtMedB" size="10"/> </label><br> 
 	
-	<label class="span6"> Medida C - Comprimento das coxas(cm)
+	<label class="span4"> Medida C - Comprimento das coxas(cm)
 	<input type="text" name="edtMedC" size="10"/> </label><br> 
 	
-	<label class="span6"> Medida D - Altura das pernas(cm)
+	<label class="span4"> Medida D - Altura das pernas(cm)
 	<input type="text" name="edtMedD" size="10"/> </label><br> 
 	
-	<label class="span6"> Medida E - Altura do braço(cm)
+	<label class="span4"> Medida E - Altura do braço(cm)
 	<input type="text" name="edtMedE" size="10"/> </label><br> 
 	
-	<label class="span6"> Medida F - Comprimento do antebraço(cm)
+	<label class="span4"> Medida F - Comprimento do antebraço(cm)
 	<input type="text" name="edtMedF" size="10"/> </label><br> 
 			 
 	<label class="span12"> Endereço completo: 
 	<input class="span8" type="text" name="edtEndereco" size="100"/> </label><br> 	
 	 	 
-	<label class="span12"> Obs: 
-	<input class="span8" type="text" id="edtObs" size="100"/> </label><br> 
+    <label class="span12">Obs: 
+    <input type="text" name="edtObs2" size="200"/> </label> <br> 
 	 
 <hr>
-
-	<input class="span4" accesskey="o" type="submit" href="../static/aviso_bd.html" name="btnOK" value="OK">
-	 
-	<input class="span4" accesskey="c" type="reset" name="btnCancelar" value="Limpar">
- 
+    <DIV class="span8">
+        <input accesskey="h" type="submit" onclick="funcao1()" value="Confirmar" class="submitButton"> 
+        <input accesskey="c" type="reset" name="btnCancelar" value="Limpar">
+ 	</DIV>
 </form>
-     <ul><BUTTON>
-       <a href="${pageContext.request.contextPath}">Sair </a></ul> 
-       </BUTTON>
+    <ul><BUTTON>
+	<input type="button" value="Voltar" name="btnVoltar" onclick="history.back();">
+     </BUTTON>
 
 </body>
  

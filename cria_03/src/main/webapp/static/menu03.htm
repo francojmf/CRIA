@@ -84,7 +84,7 @@
 		<P><BR> Nesta página é possivel ter acesso aos dados pessoais de cadastro
 		e alterar dados que necessitem atualização.<BR>
 		<BUTTON class="bfCancelButton btn btn-secondary pull-left button" 
-		onclick="window.location=('../formulario01.htm');" type="submit" value="Alterar Cadastro">
+		onclick="window.location=('../dynamic/jsp/listaUsuarios.jsp');" type="submit" value="Alterar Cadastro">
 		<SPAN>Visualizar Cadastro</SPAN></BUTTON></P><BR><BR>
 		<P>Os pedidos feitos ficarão arquivados no sistema e pode ser acessado o andamento 
 		de cada pedido, cujo status poderá ser atualizado por um gerente da equipe de produção.
@@ -109,10 +109,10 @@
 		<BUTTON class="bfCancelButton btn btn-secondary pull-left button" 
 		onclick="window.location=('menu04.htm');" type="submit" value="Menu Administrador">
 		<SPAN>Administrador</SPAN></BUTTON> 
-		<BUTTON class="bfSubmitButton btn btn-primary pull-left button" 
-		id="bfSubmitButton" onclick="window.location=('../CRIA_01.htm');" 
-		type="button" value="Logout">
-		<SPAN>Sair</SPAN></BUTTON>
+        <BUTTON class="bfSubmitButton btn btn-primary pull-left button" 
+        id="bfSubmitButton" onclick="history.back();"
+        type="button" value="Colaborador">
+        <SPAN>Voltar</SPAN></BUTTON>  
 	</DIV></DIV>
 	</SECTION>
 

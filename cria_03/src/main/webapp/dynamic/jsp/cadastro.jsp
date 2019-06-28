@@ -33,7 +33,8 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"> 
         <link rel="stylesheet"
         href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <SCRIPT src="../../static/js/jquery.min.js" type="text/javascript"></SCRIPT>  
+        <SCRIPT src="../../static/js/jquery.min.js" type="text/javascript"></SCRIPT>
+        <script> function funcao1() { alert("Dados cadastrados com sucesso !!"); } </script> 
         <title>Cadastro</title>
     </head>
     
@@ -50,20 +51,20 @@
         <label class="span6">Email: <input type="text" name="edtNomeusuario" size="50"/>   
          </label>      
          
-        <label class="span6">Senha: <input type="text" name="edtSenha" size="20"/>
+        <label class="span6">Senha: <input type="password" name="edtSenha" size="20"/>
         </label>
          
-        <label class="span6">Entidade: <input type="text" name="edtEntidade" size="50"/>  
+        <label class="span6">Entidade: <input tyC:\FATEC\Lab_ES\cria_03pe="text" name="edtEntidade" size="50"/>  
         </label>        
          
         <label class="span6">CPF: <input type="text" name="edtCPF" size="15"/>
         </label>        
 
-        <label class="span6">Telefone: <input type="text" id="edtTelefone" size="20"/>
+        <label class="span6">Telefone: <input type="text" name="edtTelefone" size="20"/>
         </label>         
              
         <label class="span6">Cidade: 
-        <SELECT name="edtCidade" class="ff_elem chzn-done" id="edtCidade" data-chosen="no-chzn">
+        <SELECT name="edtCidade" class="ff_elem chzn-done" name="edtCidade" data-chosen="no-chzn">
         <OPTION value="1">São José dos Campos-SP</OPTION> 
         <OPTION value="2">Jacareí-SP</OPTION> 
         <OPTION value="3">Caçapava-SP</OPTION> 
@@ -75,7 +76,7 @@
         </label>
          
         <label class="span6">Obs: 
-            <input type="text" id="edtObs" size="200"/>
+            <input type="text" name="edtObs" size="200"/>
         </label> 
 
         <ul class="span12">
@@ -88,7 +89,7 @@
         </ul>
         <hr>
     <DIV class="span8">
-        <input type="submit" value="Cadastrar" class="submitButton"> 
+        <input accesskey="h" type="submit" onclick="funcao1()" value="Cadastrar" class="submitButton"> 
         <input accesskey="c" type="reset" name="btnCancelar" value="Limpar">
     </DIV>
     </form>
@@ -96,9 +97,7 @@
         <SECTION>
             <DIV class="container">
             <DIV class="row-fluid" id="breadcrumb">
-        <BUTTON class="bfSubmitButton btn btn-primary pull-left button">
-            <SPAN href="${pageContext.request.contextPath}">Sair</SPAN>
-        </BUTTON>  
+        <input type="button" value="Voltar" name="btnVoltar" onclick="history.back();" >
             </DIV></DIV>
         </SECTION>
     </body>
@@ -107,7 +106,4 @@
     
 <%-- 
 <%@ include file="/../../static/base/footer.jsp"%> 
-
-
-
 --%>

@@ -1,0 +1,2340 @@
+a:active {
+	outline: 0px;
+}
+a:focus {
+	outline: 0px;
+}
+img {
+	border: currentColor; border-image: none;
+}
+#k2Container {
+	padding: 0px 0px 24px;
+}
+body.contentpane #k2Container {
+	padding: 16px;
+}
+.k2Padding {
+	padding: 4px;
+}
+.clr {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; height: 0px; line-height: 0; clear: both; float: none; display: block;
+}
+.even {
+	background: rgb(255, 255, 255); padding: 2px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.odd {
+	background: rgb(255, 255, 255); padding: 2px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.k2FeedIcon {
+	padding: 4px 8px;
+}
+div.k2FeedIcon a {
+	background: url("../images/fugue/feed.png") no-repeat 50% 50%; margin: 0px; padding: 0px; width: 16px; height: 16px; float: right; display: block;
+}
+div.k2FeedIcon a:hover {
+	background: url("../images/fugue/feed.png") no-repeat 50% 50%; margin: 0px; padding: 0px; width: 16px; height: 16px; float: right; display: block;
+}
+div.k2FeedIcon a span {
+	display: none;
+}
+div.k2FeedIcon a:hover span {
+	display: none;
+}
+.itemRatingBlock span {
+	font-weight: bold;
+}
+#k2Container .itemRatingForm {
+	line-height: 25px; vertical-align: middle; float: left; display: block;
+}
+#k2Container .itemRatingLog {
+	margin: 0px; padding: 0px 0px 0px 4px; font-size: 11px; float: left;
+}
+#k2Container div.itemRatingForm .formLogLoading {
+	background: url("../images/system/loading.gif") no-repeat left; padding: 0px 0px 0px 20px; height: 25px;
+}
+#k2Container .itemRatingList {
+	background: url("../images/system/transparent_star.gif") repeat-x left -1000px;
+}
+#k2Container .itemRatingList a:hover {
+	background: url("../images/system/transparent_star.gif") repeat-x left -1000px;
+}
+#k2Container .itemRatingList .itemCurrentRating {
+	background: url("../images/system/transparent_star.gif") repeat-x left -1000px;
+}
+#k2Container .itemRatingList {
+	background-position: left top; list-style: none; margin: 0px; padding: 0px; width: 125px; height: 25px; overflow: hidden; float: left; position: relative;
+}
+#k2Container .itemRatingList li {
+	background: none; padding: 0px; display: inline;
+}
+#k2Container .itemRatingList a {
+	border: currentColor; border-image: none; left: 0px; top: 0px; height: 25px; line-height: 25px; text-indent: -1000px; overflow: hidden; position: absolute; cursor: pointer;
+}
+#k2Container .itemRatingList .itemCurrentRating {
+	border: currentColor; border-image: none; left: 0px; top: 0px; height: 25px; line-height: 25px; text-indent: -1000px; overflow: hidden; position: absolute; cursor: pointer;
+}
+#k2Container .itemRatingList a:hover {
+	background-position: left bottom;
+}
+#k2Container .itemRatingList a.one-star {
+	width: 20%; z-index: 6;
+}
+#k2Container .itemRatingList a.two-stars {
+	width: 40%; z-index: 5;
+}
+#k2Container .itemRatingList a.three-stars {
+	width: 60%; z-index: 4;
+}
+#k2Container .itemRatingList a.four-stars {
+	width: 80%; z-index: 3;
+}
+#k2Container .itemRatingList a.five-stars {
+	width: 100%; z-index: 2;
+}
+#k2Container .itemRatingList .itemCurrentRating {
+	background-position: 0px; margin: 0px; padding: 0px; z-index: 1;
+}
+span.siteRoot {
+	display: none;
+}
+.smallerFontSize {
+	line-height: inherit; font-size: 100%;
+}
+.largerFontSize {
+	line-height: 140%; font-size: 150%;
+}
+.recaptchatable .recaptcha_image_cell {
+	background-color: rgb(255, 255, 255) !important;
+}
+#recaptcha_table {
+	background-color: rgb(255, 255, 255) !important;
+}
+#recaptcha_table {
+	border-color: rgb(204, 204, 204) !important;
+}
+#recaptcha_response_field {
+	border-color: rgb(204, 204, 204) !important; background-color: rgb(255, 255, 255) !important;
+}
+div.k2LatestCommentsBlock ul {
+	
+}
+div.k2TopCommentersBlock ul {
+	
+}
+div.k2ItemsBlock ul {
+	
+}
+div.k2LoginBlock ul {
+	
+}
+div.k2UserBlock ul.k2UserBlockActions {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu {
+	
+}
+div.k2ArchivesBlock ul {
+	
+}
+div.k2AuthorsListBlock ul {
+	
+}
+div.k2CategoriesListBlock ul {
+	
+}
+div.k2UsersBlock ul {
+	
+}
+div.k2LatestCommentsBlock ul li {
+	
+}
+div.k2TopCommentersBlock ul li {
+	
+}
+div.k2ItemsBlock ul li {
+	
+}
+div.k2LoginBlock ul li {
+	
+}
+div.k2UserBlock ul.k2UserBlockActions li {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li {
+	
+}
+div.k2ArchivesBlock ul li {
+	
+}
+div.k2AuthorsListBlock ul li {
+	
+}
+div.k2CategoriesListBlock ul li {
+	
+}
+div.k2UsersBlock ul li {
+	
+}
+.clearList {
+	clear: both; float: none; display: none;
+}
+.lastItem {
+	border: currentColor; border-image: none;
+}
+.k2Avatar img {
+	background: rgb(255, 255, 255); margin: 2px 4px 4px 0px; padding: 2px; border: 1px solid rgb(204, 204, 204); border-image: none; float: left; display: block;
+}
+a.k2ReadMore {
+	
+}
+a.k2ReadMore:hover {
+	
+}
+div.k2Pagination {
+	margin: 0px; text-align: center; color: rgb(153, 153, 153); padding-left: 170px;
+}
+div.k2Pagination ul {
+	text-align: center;
+}
+div.k2Pagination ul li {
+	background: none; padding: 0px; margin-right: 8px; display: inline-block;
+}
+div.k2Pagination ul li span {
+	background: rgb(238, 238, 238); padding: 8px; color: rgb(51, 51, 51); text-transform: uppercase; line-height: 1; letter-spacing: 1px; font-size: 0.84em; display: inline-block;
+}
+div.k2Pagination ul li a {
+	background: rgb(238, 238, 238); padding: 8px; color: rgb(51, 51, 51); text-transform: uppercase; line-height: 1; letter-spacing: 1px; font-size: 0.84em; display: inline-block;
+}
+div.k2Pagination ul li a:hover {
+	background: rgb(51, 51, 51); color: rgb(255, 255, 255);
+}
+div.k2Pagination ul li a:focus {
+	background: rgb(51, 51, 51); color: rgb(255, 255, 255);
+}
+div.k2Pagination ul li a:active {
+	background: rgb(51, 51, 51); color: rgb(255, 255, 255);
+}
+div.k2Pagination ul li span {
+	background: rgb(212, 43, 30); color: rgb(255, 255, 255); font-weight: bold;
+}
+div.k2Pagination ul li.pagination-start span {
+	background: rgb(238, 238, 238); color: rgb(153, 153, 153); font-weight: normal;
+}
+div.k2Pagination ul li.pagination-prev span {
+	background: rgb(238, 238, 238); color: rgb(153, 153, 153); font-weight: normal;
+}
+div.k2Pagination ul li.pagination-next span {
+	background: rgb(238, 238, 238); color: rgb(153, 153, 153); font-weight: normal;
+}
+div.k2Pagination ul li.pagination-end span {
+	background: rgb(238, 238, 238); color: rgb(153, 153, 153); font-weight: normal;
+}
+table.csvData {
+	
+}
+table.csvData tr th {
+	
+}
+table.csvData tr td {
+	
+}
+div.itemIsFeatured {
+	background: url("../images/system/featuredItem.png") no-repeat 100% 0px;
+}
+div.catItemIsFeatured {
+	background: url("../images/system/featuredItem.png") no-repeat 100% 0px;
+}
+div.userItemIsFeatured {
+	background: url("../images/system/featuredItem.png") no-repeat 100% 0px;
+}
+a.itemPrintThisPage {
+	background: rgb(247, 250, 254); margin: 4px auto 16px; padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 160px; text-align: center; color: rgb(85, 85, 85); font-size: 13px; display: block;
+}
+a.itemPrintThisPage:hover {
+	background: rgb(238, 238, 238); text-decoration: none;
+}
+div.itemView {
+	margin: 0px; padding: 0px;
+}
+div.itemIsFeatured {
+	
+}
+span.itemEditLink {
+	margin: 0px; padding: 4px 0px; width: 120px; text-align: right; float: right; display: block;
+}
+span.itemEditLink a {
+	background: rgb(238, 238, 238); padding: 2px 12px; border: 1px solid rgb(204, 204, 204); border-image: none; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-decoration: none;
+}
+span.itemEditLink a:hover {
+	background: rgb(255, 255, 204);
+}
+div.itemHeader {
+	
+}
+div.itemHeader span.itemDateCreated {
+	color: rgb(153, 153, 153); font-size: 11px;
+}
+div.itemHeader h2.itemTitle {
+	margin: 0px 0px 15px; padding: 0px; font-size: 2.2em; font-weight: normal;
+}
+div.itemHeader h2.itemTitle span {
+	
+}
+div.itemHeader h2.itemTitle span sup {
+	color: rgb(207, 25, 25); font-size: 12px; text-decoration: none;
+}
+div.itemHeader span.itemAuthor {
+	margin: 0px; padding: 0px; display: block;
+}
+div.itemHeader span.itemAuthor a {
+	
+}
+div.itemHeader span.itemAuthor a:hover {
+	
+}
+div.itemToolbar {
+	background: rgb(249, 249, 249); margin: 0px 0px 20px; padding: 5px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+div.itemToolbar ul {
+	list-style: none; margin: 0px; padding: 0px; text-align: right;
+}
+div.itemToolbar ul li {
+	background: none; list-style: none; margin: 0px; text-align: center; font-size: 12px; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; display: inline;
+}
+div.itemToolbar ul > li:first-child {
+	border: currentColor; border-image: none;
+}
+div.itemToolbar ul li a {
+	font-size: 12px; font-weight: normal;
+}
+div.itemToolbar ul li a:hover {
+	
+}
+div.itemToolbar ul li a span {
+	
+}
+div.itemToolbar ul li a.itemPrintLink {
+	
+}
+div.itemToolbar ul li a.itemPrintLink span {
+	
+}
+div.itemToolbar ul li a.itemEmailLink {
+	
+}
+div.itemToolbar ul li a.itemEmailLink span {
+	
+}
+div.itemToolbar ul li a.itemVideoLink {
+	
+}
+div.itemToolbar ul li a.itemVideoLink span {
+	
+}
+div.itemToolbar ul li a.itemImageGalleryLink {
+	
+}
+div.itemToolbar ul li a.itemImageGalleryLink span {
+	
+}
+div.itemToolbar ul li a.itemCommentsLink {
+	
+}
+div.itemToolbar ul li a.itemCommentsLink span {
+	
+}
+div.itemToolbar ul li a img {
+	vertical-align: middle;
+}
+div.itemToolbar ul li span.itemTextResizerTitle {
+	
+}
+div.itemToolbar ul li a#fontDecrease {
+	margin: 0px 0px 0px 2px;
+}
+div.itemToolbar ul li a#fontDecrease img {
+	background: url("../images/system/font_decrease.gif") no-repeat; width: 13px; height: 13px;
+}
+div.itemToolbar ul li a#fontIncrease {
+	margin: 0px 0px 0px 2px;
+}
+div.itemToolbar ul li a#fontIncrease img {
+	background: url("../images/system/font_increase.gif") no-repeat; width: 13px; height: 13px;
+}
+div.itemToolbar ul li a#fontDecrease span {
+	display: none;
+}
+div.itemToolbar ul li a#fontIncrease span {
+	display: none;
+}
+div.itemRatingBlock {
+	padding: 0px;
+}
+div.itemRatingBlock span {
+	margin: 0px; padding: 0px 4px 0px 0px; color: rgb(153, 153, 153); font-style: normal; float: left; display: block;
+}
+div.itemBody {
+	margin: 0px; padding: 0px;
+}
+div.itemImageBlock {
+	margin: 0px; padding: 0px; display: none;
+}
+span.itemImage {
+	margin: 0px 0px 10px; text-align: center; display: block;
+}
+span.itemImage img {
+	padding: 8px; border: 1px solid rgb(221, 221, 221); border-image: none; box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+}
+span.itemImageCaption {
+	color: rgb(102, 102, 102); font-size: 11px; float: left; display: block;
+}
+span.itemImageCredits {
+	color: rgb(153, 153, 153); font-size: 11px; font-style: italic; float: right; display: block;
+}
+div.itemIntroText {
+	
+}
+div.itemIntroText img {
+	
+}
+div.itemFullText {
+	
+}
+div.itemFullText h3 {
+	margin: 0px; padding: 16px 0px 4px;
+}
+div.itemFullText p {
+	
+}
+div.itemFullText img {
+	
+}
+div.itemExtraFields {
+	margin: 16px 0px 0px; padding: 8px 0px 0px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: dotted;
+}
+div.itemExtraFields h3 {
+	margin: 0px; padding: 0px 0px 8px; line-height: normal !important;
+}
+div.itemExtraFields ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+div.itemExtraFields ul li {
+	display: block;
+}
+div.itemExtraFields ul li span.itemExtraFieldsLabel {
+	margin: 0px 4px 0px 0px; width: 30%; font-weight: bold; float: left; display: block;
+}
+div.itemExtraFields ul li span.itemExtraFieldsValue {
+	
+}
+div.itemContentFooter {
+	margin: 16px 0px 4px; padding: 4px; text-align: right; color: rgb(153, 153, 153); border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; display: block;
+}
+span.itemHits {
+	float: left;
+}
+span.itemDateModified {
+	
+}
+div.itemSocialSharing {
+	padding: 8px 0px;
+}
+div.itemTwitterButton {
+	margin: 2px 24px 0px 0px; float: left;
+}
+div.itemFacebookButton {
+	width: 200px; margin-right: 24px; float: left;
+}
+div.itemGooglePlusOneButton {
+	
+}
+div.itemLinks {
+	margin: 16px 0px; padding: 0px;
+}
+div.itemCategory {
+	padding: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.itemCategory span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold;
+}
+div.itemCategory a {
+	
+}
+div.itemTagsBlock {
+	
+}
+div.itemTagsBlock span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold; float: left; display: block;
+}
+div.itemTagsBlock ul.itemTags {
+	list-style: none; margin: 0px; padding: 0px; float: left; display: block;
+}
+div.itemTagsBlock ul.itemTags li {
+	background: rgb(240, 240, 240); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(221, 221, 221) rgb(221, 221, 221) rgb(204, 204, 204); list-style: none; margin: 0px 2px 3px 0px; padding: 2px 8px 4px; border-radius: 8px; border-image: none; text-align: center; line-height: 1; display: inline-block; text-shadow: 1px 1px 0px #fff;
+}
+div.itemTagsBlock ul.itemTags li a {
+	font-size: 0.91em;
+}
+div.itemTagsBlock ul.itemTags li a:hover {
+	
+}
+div.itemAttachmentsBlock {
+	padding: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.itemAttachmentsBlock span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold;
+}
+div.itemAttachmentsBlock ul.itemAttachments {
+	list-style: none; margin: 0px; padding: 0px; display: inline;
+}
+div.itemAttachmentsBlock ul.itemAttachments li {
+	list-style: none; margin: 0px; padding: 0px 4px; text-align: center; display: inline;
+}
+div.itemAttachmentsBlock ul.itemAttachments li a {
+	
+}
+div.itemAttachmentsBlock ul.itemAttachments li a:hover {
+	
+}
+div.itemAttachmentsBlock ul.itemAttachments li span {
+	color: rgb(153, 153, 153); font-size: 10px; font-weight: normal;
+}
+div.itemAuthorBlock {
+	background: rgb(249, 249, 249); margin: 0px 0px 20px; padding: 10px; border-radius: 2px; border: 1px solid rgb(221, 221, 221); border-image: none; box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+}
+div.itemAuthorBlock img.itemAuthorAvatar {
+	background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(238, 238, 238) rgb(238, 238, 238) rgb(221, 221, 221); margin: 0px 20px 0px 0px; padding: 4px; border-image: none; float: left; display: block;
+}
+div.itemAuthorBlock div.itemAuthorDetails {
+	margin: 0px; padding: 4px 0px 0px;
+}
+div.itemAuthorBlock div.itemAuthorDetails h3.itemAuthorName {
+	margin: 0px 0px 10px; padding: 0px; text-transform: uppercase;
+}
+div.itemAuthorBlock div.itemAuthorDetails h3.itemAuthorName a {
+	
+}
+div.itemAuthorBlock div.itemAuthorDetails h3.itemAuthorName a:hover {
+	
+}
+div.itemAuthorBlock div.itemAuthorDetails p {
+	margin-top: 0px;
+}
+div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorUrl {
+	margin: 0px 4px 0px 0px; padding: 0px 8px 0px 0px; color: rgb(85, 85, 85); font-weight: bold; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid;
+}
+div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorEmail {
+	color: rgb(85, 85, 85); font-weight: bold;
+}
+div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorUrl a {
+	font-weight: normal;
+}
+div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorEmail a {
+	font-weight: normal;
+}
+div.itemAuthorLatest {
+	padding: 0px; margin-bottom: 16px;
+}
+div.itemAuthorLatest h3 {
+	
+}
+div.itemAuthorLatest ul {
+	
+}
+div.itemAuthorLatest ul li {
+	background: none; border: 0px currentColor; border-image: none; padding-left: 10px;
+}
+div.itemAuthorLatest ul li a {
+	background: url("../images/bullet-dark.gif") no-repeat left; padding: 0px 0px 0px 10px;
+}
+div.itemAuthorLatest ul li a:hover {
+	background-image: url("../images/bullet-red.gif");
+}
+div.itemAuthorLatest ul li a:active {
+	background-image: url("../images/bullet-red.gif");
+}
+div.itemAuthorLatest ul li a:focus {
+	background-image: url("../images/bullet-red.gif");
+}
+div.itemRelated {
+	padding: 0px; margin-bottom: 16px;
+}
+div.itemRelated h3 {
+	
+}
+div.itemRelated ul {
+	
+}
+div.itemRelated ul li {
+	background: none; border: 0px currentColor; border-image: none; padding-left: 10px;
+}
+div.itemRelated ul li a {
+	background: url("../images/bullet-dark.gif") no-repeat left; padding: 0px 0px 0px 10px;
+}
+div.itemRelated ul li a:hover {
+	background-image: url("../images/bullet-red.gif");
+}
+div.itemRelated ul li.k2ScrollerElement {
+	background: rgb(255, 255, 255); margin: 0px 4px 4px 0px; padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; overflow: hidden; float: left;
+}
+div.itemRelated ul li.clr {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; height: 0px; line-height: 0; clear: both; float: none; display: block;
+}
+a.itemRelTitle {
+	
+}
+div.itemRelCat {
+	
+}
+div.itemRelCat a {
+	
+}
+div.itemRelAuthor {
+	
+}
+div.itemRelAuthor a {
+	
+}
+img.itemRelImg {
+	
+}
+div.itemRelIntrotext {
+	
+}
+div.itemRelFulltext {
+	
+}
+div.itemRelMedia {
+	
+}
+div.itemRelImageGallery {
+	
+}
+div.itemVideoBlock {
+	background: url("../images/system/videoplayer-bg.gif") repeat-x bottom rgb(16, 21, 28); margin: 0px 0px 20px; padding: 0px 10px 10px;
+}
+div.itemVideoBlock h3 {
+	background: rgb(51, 51, 51); margin: 0px -10px 10px; padding: 10px; color: rgb(204, 204, 204); text-transform: uppercase; border-bottom-color: rgb(68, 68, 68); border-bottom-width: 1px; border-bottom-style: solid;
+}
+div.itemVideoBlock div.itemVideoEmbedded {
+	text-align: center;
+}
+div.itemVideoBlock span.itemVideo {
+	overflow: hidden; display: block;
+}
+div.itemVideoBlock span.itemVideoCaption {
+	width: 60%; color: rgb(238, 238, 238); font-size: 11px; font-weight: bold; float: left; display: block;
+}
+div.itemVideoBlock span.itemVideoCredits {
+	width: 35%; text-align: right; color: rgb(238, 238, 238); font-size: 11px; font-style: italic; float: right; display: block;
+}
+div.itemImageGallery {
+	margin: 0px 0px 16px; padding: 0px;
+}
+div.itemNavigation {
+	margin: 0px 0px 20px; padding: 0px; overflow: hidden;
+}
+div.itemNavigation span.itemNavigationTitle {
+	font-weight: bold; margin-bottom: 5px; display: block;
+}
+div.itemNavigation a {
+	padding: 0px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.itemNavigation a:hover {
+	border-color: rgb(212, 43, 30);
+}
+div.itemNavigation a:focus {
+	border-color: rgb(212, 43, 30);
+}
+div.itemNavigation a:active {
+	border-color: rgb(212, 43, 30);
+}
+div.itemNavigation a.itemNext {
+	float: right;
+}
+div.itemComments {
+	padding-top: 20px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+div.itemComments ul.itemCommentsList {
+	list-style: none; margin: 0px 0px 16px; padding: 0px;
+}
+div.itemComments ul.itemCommentsList li {
+	background: none; margin: 0px; padding: 10px 0px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+div.itemComments ul.itemCommentsList li.authorResponse {
+	background: url("../images/system/stripes.png");
+}
+div.itemComments ul.itemCommentsList li.unpublishedComment {
+	background: rgb(255, 234, 234);
+}
+div.itemComments ul.itemCommentsList li img {
+	background: rgb(240, 240, 240); border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(238, 238, 238) rgb(238, 238, 238) rgb(221, 221, 221); margin: 4px 10px 10px 0px; padding: 4px; border-image: none; text-align: center; float: left;
+}
+div.itemComments ul.itemCommentsList li span.commentDate {
+	margin: 0px 8px 0px 0px; padding: 0px 4px 0px 0px; color: rgb(153, 153, 153); font-size: 0.84em; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid;
+}
+div.itemComments ul.itemCommentsList li span.commentAuthorName {
+	color: rgb(153, 153, 153); font-weight: bold;
+}
+div.itemComments ul.itemCommentsList li span.commentAuthorName a {
+	font-weight: normal;
+}
+div.itemComments ul.itemCommentsList li p {
+	margin: 2px 0px 0px; padding: 0px;
+}
+div.itemComments ul.itemCommentsList li span.commentAuthorEmail {
+	display: none;
+}
+div.itemComments ul.itemCommentsList li span.commentLink {
+	margin-left: 8px; float: right;
+}
+div.itemComments ul.itemCommentsList li span.commentLink a {
+	font-size: 11px; text-decoration: underline;
+}
+div.itemComments ul.itemCommentsList li span.commentLink a:hover {
+	font-size: 11px; text-decoration: underline;
+}
+div.itemComments ul.itemCommentsList li span.commentToolbar {
+	clear: both; display: block;
+}
+div.itemComments ul.itemCommentsList li span.commentToolbar a {
+	font-size: 11px; text-decoration: underline; margin-right: 4px;
+}
+div.itemComments ul.itemCommentsList li span.commentToolbar a:hover {
+	font-size: 11px; text-decoration: underline;
+}
+div.itemComments ul.itemCommentsList li span.commentToolbarLoading {
+	background: url("../images/system/searchLoader.gif") no-repeat 100% 50%;
+}
+div.itemCommentsPagination {
+	text-align: center;
+}
+div.itemCommentsPagination ul li {
+	background: none; padding: 0px; margin-right: 8px; display: inline-block;
+}
+div.itemCommentsPagination ul li span {
+	background: rgb(238, 238, 238); padding: 8px; color: rgb(51, 51, 51); text-transform: uppercase; line-height: 1; letter-spacing: 1px; font-size: 0.84em; display: inline-block;
+}
+div.itemCommentsPagination ul li a {
+	background: rgb(238, 238, 238); padding: 8px; color: rgb(51, 51, 51); text-transform: uppercase; line-height: 1; letter-spacing: 1px; font-size: 0.84em; display: inline-block;
+}
+div.itemCommentsPagination ul li a:hover {
+	background: rgb(51, 51, 51); color: rgb(255, 255, 255);
+}
+div.itemCommentsPagination ul li a:focus {
+	background: rgb(51, 51, 51); color: rgb(255, 255, 255);
+}
+div.itemCommentsPagination ul li a:active {
+	background: rgb(51, 51, 51); color: rgb(255, 255, 255);
+}
+div.itemCommentsPagination ul li span {
+	background: rgb(212, 43, 30); color: rgb(255, 255, 255); font-weight: bold;
+}
+div.itemCommentsPagination ul li.pagination-start span {
+	background: rgb(238, 238, 238); color: rgb(153, 153, 153); font-weight: normal;
+}
+div.itemCommentsPagination ul li.pagination-prev span {
+	background: rgb(238, 238, 238); color: rgb(153, 153, 153); font-weight: normal;
+}
+div.itemCommentsPagination ul li.pagination-next span {
+	background: rgb(238, 238, 238); color: rgb(153, 153, 153); font-weight: normal;
+}
+div.itemCommentsPagination ul li.pagination-end span {
+	background: rgb(238, 238, 238); color: rgb(153, 153, 153); font-weight: normal;
+}
+div.itemCommentsForm h3 {
+	margin: 0px 0px 10px; padding: 0px; text-transform: uppercase;
+}
+div.itemCommentsForm p.itemCommentsFormNotes {
+	margin: 0px 0px 20px; color: rgb(102, 102, 102); font-style: italic;
+}
+div.itemCommentsForm form {
+	
+}
+div.comment-username {
+	width: 33.3%; margin-bottom: 20px; float: left;
+}
+div.comment-url {
+	width: 33.3%; margin-bottom: 20px; float: left;
+}
+div.comment-email {
+	width: 33.3%; margin-bottom: 20px; float: left;
+}
+div.itemCommentsForm form label.formComment {
+	margin: 0px 0px 3px; font-weight: bold; display: block;
+}
+div.itemCommentsForm form label.formName {
+	margin: 0px 0px 3px; font-weight: bold; display: block;
+}
+div.itemCommentsForm form label.formEmail {
+	margin: 0px 0px 3px; font-weight: bold; display: block;
+}
+div.itemCommentsForm form label.formUrl {
+	margin: 0px 0px 3px; font-weight: bold; display: block;
+}
+div.itemCommentsForm form label.formRecaptcha {
+	margin: 12px 0px 0px 2px; display: block;
+}
+div.itemCommentsForm form textarea.inputbox {
+	margin: 0px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 100%; height: 160px; color: rgb(102, 102, 102); display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+div.itemCommentsForm form input.inputbox {
+	border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(221, 221, 221) rgb(221, 221, 221) rgb(204, 204, 204); margin: 0px; padding: 7px 5px; border-image: none; width: 90%; color: rgb(102, 102, 102); display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+div.itemCommentsForm form input#submitCommentButton {
+	background: rgb(51, 51, 51); margin: 16px 0px 0px; padding: 4px; border: 1px solid rgb(51, 51, 51); border-image: none; color: rgb(255, 255, 255); font-size: 16px; display: block;
+}
+div.itemCommentsForm form input#submitCommentButton:hover {
+	background: rgb(212, 43, 30); border: 1px solid rgb(212, 43, 30); border-image: none; cursor: pointer;
+}
+div.itemCommentsForm form span#formLog {
+	margin: 0px 0px 0px 20px; padding: 0px 0px 0px 20px; color: rgb(207, 25, 25); font-weight: bold;
+}
+div.itemCommentsForm form .formLogLoading {
+	background: url("../images/system/loading.gif") no-repeat left;
+}
+div.k2ReportCommentFormContainer {
+	margin: 0px auto; padding: 8px; width: 480px;
+}
+div.k2ReportCommentFormContainer blockquote {
+	background: rgb(247, 250, 254); margin: 0px 0px 8px; padding: 8px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 462px;
+}
+div.k2ReportCommentFormContainer blockquote span.quoteIconLeft {
+	color: rgb(19, 92, 174); line-height: 30px; font-size: 40px; font-style: italic; font-weight: bold; vertical-align: top; float: left; display: block;
+}
+div.k2ReportCommentFormContainer blockquote span.quoteIconRight {
+	color: rgb(19, 92, 174); line-height: 30px; font-size: 40px; font-style: italic; font-weight: bold; vertical-align: top; float: right; display: block;
+}
+div.k2ReportCommentFormContainer blockquote span.theComment {
+	padding: 0px 4px; color: rgb(0, 0, 0); font-size: 12px; font-style: italic; font-weight: normal;
+}
+div.k2ReportCommentFormContainer form label {
+	font-weight: bold; display: block;
+}
+div.k2ReportCommentFormContainer form input {
+	margin: 0px 0px 8px; padding: 2px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 474px; font-size: 12px; display: block;
+}
+div.k2ReportCommentFormContainer form textarea {
+	margin: 0px 0px 8px; padding: 2px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 474px; font-size: 12px; display: block;
+}
+div.k2ReportCommentFormContainer form #recaptcha {
+	margin-bottom: 24px;
+}
+div.k2ReportCommentFormContainer form span#formLog {
+	margin: 0px 0px 0px 20px; padding: 0px 0px 0px 20px; color: rgb(207, 25, 25); font-weight: bold;
+}
+div.k2ReportCommentFormContainer form .formLogLoading {
+	background: url("../images/system/loading.gif") no-repeat left;
+}
+div.itemBackToTop {
+	text-align: right;
+}
+div.itemBackToTop a {
+	text-decoration: underline;
+}
+div.itemBackToTop a:hover {
+	text-decoration: underline;
+}
+div.itemBlogView#k2Container {
+	padding-left: 170px; position: relative;
+}
+div.itemListCategoriesBlock {
+	
+}
+div.itemListCategory {
+	background: rgb(255, 255, 255); margin: 0px; padding: 10px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+span.catItemAddLink {
+	margin: 0px 0px 4px; padding: 8px 0px; text-align: right; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted; display: block;
+}
+span.catItemAddLink a {
+	background: rgb(238, 238, 238); padding: 4px 16px; border: 1px solid rgb(204, 204, 204); border-image: none; text-decoration: none;
+}
+span.catItemAddLink a:hover {
+	background: rgb(255, 255, 204);
+}
+div.itemListCategory img {
+	background: rgb(255, 255, 255); margin: 0px 20px 0px 0px; padding: 0px; float: left; display: block;
+}
+div.itemListCategory h2 {
+	margin: 0px 0px 10px; padding: 0px; text-transform: uppercase;
+}
+div.itemListCategory p {
+	margin: 0px;
+}
+div.itemListSubCategories {
+	
+}
+div.itemListSubCategories h3 {
+	padding-left: 10px; font-size: 2.91em; font-weight: normal; margin-bottom: 20px;
+}
+div.subCategoryContainer {
+	margin-bottom: 40px; float: left;
+}
+div.subCategoryContainerLast {
+	
+}
+div.subCategory {
+	margin: 0px 10px; padding: 0px;
+}
+div.subCategory a.subCategoryImage {
+	text-align: center; display: block;
+}
+div.subCategory a.subCategoryImage:hover {
+	text-align: center; display: block;
+}
+div.subCategory a.subCategoryImage img {
+	background: rgb(255, 255, 255); margin: 0px; padding: 9px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+div.subCategory a.subCategoryImage:hover img {
+	background: rgb(255, 255, 255); margin: 0px; padding: 9px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+div.subCategory h2 {
+	
+}
+div.subCategory h2 a {
+	
+}
+div.subCategory h2 a:hover {
+	
+}
+div.subCategory p {
+	
+}
+div.subCategory a.subCategoryMore {
+	background: url("../images/readon-bg.png") no-repeat left; padding-left: 18px;
+}
+div.subCategory a.subCategoryMore:hover {
+	background-image: url("../images/readon-hover-bg.png");
+}
+div.subCategory a.subCategoryMore:focus {
+	background-image: url("../images/readon-hover-bg.png");
+}
+div.subCategory a.subCategoryMore:active {
+	background-image: url("../images/readon-hover-bg.png");
+}
+div.itemList {
+	
+}
+div#itemListLeading {
+	
+}
+div#itemListPrimary {
+	
+}
+div#itemListSecondary {
+	
+}
+div#itemListLinks {
+	margin: 0px; padding: 0px;
+}
+div.itemContainer {
+	float: left;
+}
+div.itemContainerLast {
+	
+}
+#itemListLinks div.itemContainerLast h3 {
+	margin: 0px; padding: 8px 0px; font-size: 1em; font-weight: normal; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#itemListLinks div.itemContainerLast h3 a {
+	background: url("../images/bullet-dark.gif") no-repeat left; padding-left: 10px;
+}
+#itemListLinks div.itemContainerLast h3 a:hover {
+	background-image: url("../images/bullet-red.gif");
+}
+div#itemListLinks h4 {
+	padding-left: 170px;
+}
+div#itemListLinks div.itemContainer {
+	margin-bottom: 0px;
+}
+div#itemListLinks div.catItemView {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+div.catItemView {
+	padding: 0px;
+}
+div.groupLeading {
+	
+}
+div.groupPrimary {
+	
+}
+div.groupSecondary {
+	
+}
+div.groupLinks {
+	margin: 0px; padding: 0px;
+}
+div.catItemIsFeatured {
+	
+}
+span.catItemEditLink {
+	margin: 0px; padding: 4px 0px; width: 120px; text-align: right; float: right; display: block;
+}
+span.catItemEditLink a {
+	background: rgb(238, 238, 238); padding: 2px 12px; border: 1px solid rgb(204, 204, 204); border-image: none; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-decoration: none;
+}
+span.catItemEditLink a:hover {
+	background: rgb(255, 255, 204);
+}
+div.catItemHeader {
+	
+}
+div.catItemHeader span.catItemDateCreated {
+	color: rgb(153, 153, 153); font-size: 11px;
+}
+div.catItemHeader h3.catItemTitle {
+	margin: 0px 0px 15px; padding: 0px; font-size: 2.33em; font-weight: normal;
+}
+div.catItemHeader h3.catItemTitle a {
+	color: rgb(55, 44, 35);
+}
+div.catItemHeader h3.catItemTitle a:hover {
+	color: rgb(212, 43, 30);
+}
+div.catItemHeader h3.catItemTitle a:focus {
+	color: rgb(212, 43, 30);
+}
+div.catItemHeader h3.catItemTitle a:active {
+	color: rgb(212, 43, 30);
+}
+div.catItemHeader h3.catItemTitle span {
+	
+}
+div.catItemHeader h3.catItemTitle span sup {
+	color: rgb(207, 25, 25); font-size: 12px; text-decoration: none;
+}
+div.catItemHeader span.catItemAuthor {
+	margin: 0px; padding: 0px; display: block;
+}
+div.catItemHeader span.catItemAuthor a {
+	
+}
+div.catItemHeader span.catItemAuthor a:hover {
+	
+}
+div.catItemRatingBlock {
+	padding: 8px 0px;
+}
+div.catItemRatingBlock span {
+	margin: 0px; padding: 0px 4px 0px 0px; color: rgb(153, 153, 153); font-style: normal; float: left; display: block;
+}
+div.catItemBody {
+	margin: 0px 0px 10px; padding: 0px;
+}
+div.catItemImageBlock {
+	margin: 0px; padding: 0px;
+}
+span.catItemImage {
+	margin: 0px 0px 15px; text-align: center; display: block;
+}
+span.catItemImage img {
+	background: rgb(249, 249, 249); padding: 8px; border: 1px solid rgb(221, 221, 221); border-image: none; display: block; box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+}
+div.catItemIntroText {
+	padding: 0px;
+}
+div.catItemIntroText p {
+	margin: 0px 0px 15px; padding: 0px;
+}
+div.catItemIntroText img {
+	
+}
+div.catItemExtraFields {
+	margin: 16px 0px 0px; padding: 8px 0px 0px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: dotted;
+}
+div.genericItemExtraFields {
+	margin: 16px 0px 0px; padding: 8px 0px 0px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: dotted;
+}
+div.catItemExtraFields h4 {
+	margin: 0px; padding: 0px 0px 8px; line-height: normal !important;
+}
+div.genericItemExtraFields h4 {
+	margin: 0px; padding: 0px 0px 8px; line-height: normal !important;
+}
+div.catItemExtraFields ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+div.genericItemExtraFields ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+div.catItemExtraFields ul li {
+	display: block;
+}
+div.genericItemExtraFields ul li {
+	display: block;
+}
+div.catItemExtraFields ul li span.catItemExtraFieldsLabel {
+	margin: 0px 4px 0px 0px; width: 30%; font-weight: bold; float: left; display: block;
+}
+div.genericItemExtraFields ul li span.genericItemExtraFieldsLabel {
+	margin: 0px 4px 0px 0px; width: 30%; font-weight: bold; float: left; display: block;
+}
+div.catItemExtraFields ul li span.catItemExtraFieldsValue {
+	
+}
+div.catItemLinks {
+	margin: 0px; padding: 0px;
+}
+div.catItemHitsBlock {
+	padding: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+span.catItemHits {
+	
+}
+div.catItemCategory {
+	padding: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.catItemCategory span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold;
+}
+div.catItemCategory a {
+	
+}
+div.catItemTagsBlock {
+	padding: 10px 0px;
+}
+div.catItemTagsBlock span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold; float: left; display: block;
+}
+div.catItemTagsBlock ul.catItemTags {
+	list-style: none; margin: 0px; padding: 0px; float: left; display: block;
+}
+div.catItemTagsBlock ul.catItemTags li {
+	background: rgb(240, 240, 240); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(221, 221, 221) rgb(221, 221, 221) rgb(204, 204, 204); list-style: none; margin: 0px 2px 3px 0px; padding: 2px 8px 4px; border-radius: 8px; border-image: none; text-align: center; line-height: 1; display: inline-block; text-shadow: 1px 1px 0px #fff;
+}
+div.catItemTagsBlock ul.catItemTags li a {
+	font-size: 0.91em;
+}
+div.catItemTagsBlock ul.catItemTags li a:hover {
+	
+}
+div.catItemAttachmentsBlock {
+	padding: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.catItemAttachmentsBlock span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold;
+}
+div.catItemAttachmentsBlock ul.catItemAttachments {
+	list-style: none; margin: 0px; padding: 0px; display: inline;
+}
+div.catItemAttachmentsBlock ul.catItemAttachments li {
+	list-style: none; margin: 0px; padding: 0px 4px; text-align: center; display: inline;
+}
+div.catItemAttachmentsBlock ul.catItemAttachments li a {
+	
+}
+div.catItemAttachmentsBlock ul.catItemAttachments li a:hover {
+	
+}
+div.catItemAttachmentsBlock ul.catItemAttachments li span {
+	color: rgb(153, 153, 153); font-size: 10px; font-weight: normal;
+}
+div.catItemVideoBlock {
+	background: url("../images/system/videoplayer-bg.gif") repeat-x bottom rgb(1, 1, 1); margin: 0px 0px 16px; padding: 16px;
+}
+div.catItemVideoBlock div.catItemVideoEmbedded {
+	text-align: center;
+}
+div.catItemVideoBlock span.catItemVideo {
+	display: block;
+}
+div.catItemImageGallery {
+	margin: 0px 0px 16px; padding: 0px;
+}
+div.catItemCommentsLink {
+	margin: 0px 8px 0px 0px; padding: 0px 8px 0px 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; display: inline;
+}
+div.catItemCommentsLink a {
+	
+}
+div.catItemCommentsLink a:hover {
+	
+}
+div.catItemReadMore {
+	display: inline;
+}
+div.catItemReadMore a {
+	background: url("../images/readon-bg.png") no-repeat left; padding-left: 17px;
+}
+div.catItemReadMore a:hover {
+	background-image: url("../images/readon-hover-bg.png");
+}
+span.catItemDateModified {
+	margin: 4px 0px; padding: 4px; text-align: right; color: rgb(153, 153, 153); border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; display: block;
+}
+div.itemListBlogView div.itemContainer {
+	margin-bottom: 20px; position: relative;
+}
+div.catItemView {
+	padding-bottom: 20px; margin-left: 170px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 2px; border-bottom-style: solid;
+}
+div.blog-item-meta {
+	left: 0px; top: 7px; position: absolute;
+}
+div.blog-item-meta span {
+	padding: 7px 0px 5px 20px; color: rgb(51, 51, 51); border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+div.blog-item-meta span strong {
+	color: rgb(102, 102, 102);
+}
+div.blog-item-meta span.catItemDateCreated {
+	background: rgb(110, 119, 132); padding: 5px 10px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 1.16em; font-weight: bold; text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+div.blog-item-meta span.itemDateCreated {
+	background: rgb(110, 119, 132); padding: 5px 10px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 1.16em; font-weight: bold; text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+div.blog-item-meta span.userItemDateCreated {
+	background: rgb(110, 119, 132); padding: 5px 10px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 1.16em; font-weight: bold; text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+div.blog-item-meta span.tagItemDateCreated {
+	background: rgb(110, 119, 132); padding: 5px 10px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 1.16em; font-weight: bold; text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+div.blog-item-meta span.genericItemDateCreated {
+	background: rgb(110, 119, 132); padding: 5px 10px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 1.16em; font-weight: bold; text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+div.blog-item-meta span.catItemAuthor {
+	background: url("../images/icons/icon-user.png") no-repeat left;
+}
+div.blog-item-meta span.itemAuthor {
+	background: url("../images/icons/icon-user.png") no-repeat left;
+}
+div.blog-item-meta span.catItemCategory {
+	background: url("../images/icons/icon-folder.png") no-repeat left;
+}
+div.blog-item-meta span.itemCategory {
+	background: url("../images/icons/icon-folder.png") no-repeat left;
+}
+div.blog-item-meta span.userItemCategory {
+	background: url("../images/icons/icon-folder.png") no-repeat left;
+}
+div.blog-item-meta span.tagItemCategory {
+	background: url("../images/icons/icon-folder.png") no-repeat left;
+}
+div.blog-item-meta span.genericItemCategory {
+	background: url("../images/icons/icon-folder.png") no-repeat left;
+}
+div.blog-item-meta span.catItemCommentsLink {
+	background: url("../images/icons/icon-comment.png") no-repeat left;
+}
+div.blog-item-meta span.itemCommentsLink {
+	background: url("../images/icons/icon-comment.png") no-repeat left;
+}
+div.blog-item-meta span.userItemCommentsLink {
+	background: url("../images/icons/icon-comment.png") no-repeat left;
+}
+div.userView {
+	
+}
+div.userBlock {
+	margin: 0px 0px 20px; padding: 10px; border: 1px solid rgb(221, 221, 221); border-image: none; clear: both;
+}
+span.userItemAddLink {
+	margin: 0px 0px 4px; padding: 8px 0px; text-align: right; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted; display: block;
+}
+span.userItemAddLink a {
+	background: rgb(238, 238, 238); padding: 4px 16px; border: 1px solid rgb(204, 204, 204); border-image: none; text-decoration: none;
+}
+span.userItemAddLink a:hover {
+	background: rgb(255, 255, 204);
+}
+div.userBlock img {
+	background: rgb(255, 255, 255); margin: 0px 8px 0px 0px; padding: 4px; border: 1px solid rgb(221, 221, 221); border-image: none; float: left; display: block;
+}
+div.userBlock h2 {
+	margin: 0px 0px 10px;
+}
+div.userBlock div.userDescription {
+	padding: 0px;
+}
+div.userBlock div.userAdditionalInfo {
+	margin: 8px 0px 0px; padding: 4px 0px;
+}
+span.userURL {
+	color: rgb(85, 85, 85); font-weight: bold; display: block;
+}
+span.userEmail {
+	color: rgb(85, 85, 85); font-weight: bold; display: block;
+}
+div.userItemList {
+	
+}
+div.userItemView {
+	background: url("../images/line-bg.gif") no-repeat 170px bottom; padding-bottom: 20px; padding-left: 170px; margin-bottom: 20px; position: relative;
+}
+div.userItemIsFeatured {
+	
+}
+div.userItemViewUnpublished {
+	background: rgb(255, 255, 242); margin: 8px 0px; padding: 8px; border: 4px dashed rgb(204, 204, 204); border-image: none; opacity: 0.9;
+}
+span.userItemEditLink {
+	margin: 0px; padding: 4px 0px; width: 120px; text-align: right; float: right; display: block;
+}
+span.userItemEditLink a {
+	background: rgb(238, 238, 238); padding: 2px 12px; border: 1px solid rgb(204, 204, 204); border-image: none; font-size: 11px; font-weight: normal; text-decoration: none;
+}
+span.userItemEditLink a:hover {
+	background: rgb(255, 255, 204);
+}
+div.userItemHeader {
+	
+}
+div.userItemHeader span.userItemDateCreated {
+	color: rgb(153, 153, 153); font-size: 11px;
+}
+div.userItemHeader h3.userItemTitle {
+	margin: 0px 0px 10px; padding: 0px; color: rgb(51, 51, 51); font-size: 2.33em; font-weight: normal;
+}
+div.userItemHeader h3.userItemTitle a {
+	color: rgb(55, 44, 35);
+}
+div.userItemHeader h3.userItemTitle a:hover {
+	color: rgb(212, 43, 30);
+}
+div.userItemHeader h3.userItemTitle a:focus {
+	color: rgb(212, 43, 30);
+}
+div.userItemHeader h3.userItemTitle a:active {
+	color: rgb(212, 43, 30);
+}
+div.userItemHeader h3.userItemTitle span sup {
+	color: rgb(207, 25, 25); font-size: 12px; text-decoration: none;
+}
+div.userItemBody {
+	margin: 0px; padding: 0px;
+}
+div.userItemImageBlock {
+	margin: 0px; padding: 0px; float: left;
+}
+span.userItemImage {
+	margin: 0px; text-align: center; display: block;
+}
+span.userItemImage img {
+	padding: 8px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+div.userItemIntroText {
+	padding: 0px; float: left; display: block;
+}
+div.userItemIntroText p {
+	margin-top: 0px;
+}
+div.userItemIntroText img {
+	
+}
+div.userItemLinks {
+	margin: 0px 0px 10px; padding: 0px;
+}
+div.userItemCategory {
+	padding: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.userItemCategory span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold;
+}
+div.userItemCategory a {
+	
+}
+div.userItemTagsBlock {
+	
+}
+div.userItemTagsBlock span {
+	padding: 0px 5px 0px 0px; color: rgb(85, 85, 85); font-weight: bold; float: left; display: block;
+}
+div.userItemTagsBlock ul.userItemTags {
+	list-style: none; margin: 0px; padding: 0px; float: left; display: block;
+}
+div.userItemTagsBlock ul.userItemTags li {
+	background: rgb(240, 240, 240); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(221, 221, 221) rgb(221, 221, 221) rgb(204, 204, 204); list-style: none; margin: 0px 2px 3px 0px; padding: 2px 8px 4px; border-radius: 8px; border-image: none; text-align: center; line-height: 1; display: inline-block; text-shadow: 1px 1px 0px #fff;
+}
+div.userItemTagsBlock ul.userItemTags li a {
+	font-size: 0.91em;
+}
+div.userItemTagsBlock ul.userItemTags li a:hover {
+	
+}
+div.userItemCommentsLink {
+	margin: 0px 8px 0px 0px; padding: 0px 8px 0px 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; display: inline;
+}
+div.userItemCommentsLink a {
+	
+}
+div.userItemCommentsLink a:hover {
+	
+}
+div.userItemReadMore {
+	display: inline;
+}
+div.userItemReadMore a {
+	background: url("../images/readon-bg.png") no-repeat left; padding-left: 18px;
+}
+div.userItemReadMore a:hover {
+	background-image: url("../images/readon-hover-bg.png");
+}
+div.tagView {
+	
+}
+div.tagItemList {
+	
+}
+div.tagItemView {
+	background: url("../images/line-bg.gif") no-repeat 170px bottom; margin: 0px 0px 20px; padding: 0px 0px 20px 170px; position: relative;
+}
+div.tagItemHeader {
+	
+}
+div.tagItemHeader span.tagItemDateCreated {
+	
+}
+div.tagItemHeader h2.tagItemTitle {
+	margin: 0px 0px 15px; padding: 0px; font-size: 1.33em; font-weight: 700;
+}
+div.tagItemHeader h2.tagItemTitle a {
+	color: rgb(55, 44, 35);
+}
+div.tagItemHeader h2.tagItemTitle a:hover {
+	color: rgb(212, 43, 30);
+}
+div.tagItemHeader h2.tagItemTitle a:focus {
+	color: rgb(212, 43, 30);
+}
+div.tagItemHeader h2.tagItemTitle a:active {
+	color: rgb(212, 43, 30);
+}
+div.tagItemBody {
+	margin: 0px; padding: 0px;
+}
+div.tagItemImageBlock {
+	margin: 0px; padding: 0px; float: left;
+}
+span.tagItemImage {
+	margin: 0px 8px 8px 0px; text-align: center; display: block;
+}
+span.tagItemImage img {
+	padding: 8px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+div.tagItemIntroText {
+	padding: 0px;
+}
+div.tagItemIntroText img {
+	
+}
+div.tagItemExtraFields {
+	
+}
+div.tagItemExtraFields h4 {
+	
+}
+div.tagItemExtraFields ul {
+	
+}
+div.tagItemExtraFields ul li {
+	
+}
+div.tagItemExtraFields ul li span.tagItemExtraFieldsLabel {
+	
+}
+div.tagItemExtraFields ul li span.tagItemExtraFieldsValue {
+	
+}
+div.tagItemCategory {
+	margin: 0px 8px 0px 0px; padding: 0px 8px 0px 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; display: inline;
+}
+div.tagItemCategory span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold;
+}
+div.tagItemCategory a {
+	
+}
+div.tagItemReadMore {
+	display: inline;
+}
+div.tagItemReadMore a {
+	background: url("../images/readon-bg.png") no-repeat left; padding-left: 18px;
+}
+div.tagItemReadMore a:hover {
+	background-image: url("../images/readon-hover-bg.png");
+}
+div.genericView {
+	
+}
+div.genericItemList {
+	
+}
+div.genericItemView {
+	background: url("../images/line-bg.gif") no-repeat 170px bottom; margin: 0px 0px 20px; padding-bottom: 20px; padding-left: 170px; position: relative;
+}
+div.genericItemHeader {
+	
+}
+div.genericItemHeader span.genericItemDateCreated {
+	color: rgb(153, 153, 153); font-size: 11px;
+}
+div.genericItemHeader h2.genericItemTitle {
+	margin: 0px; padding: 0px; font-size: 2.33em; font-weight: normal;
+}
+div.genericItemBody {
+	margin: 0px; padding: 8px 0px;
+}
+div.genericItemImageBlock {
+	margin: 0px; padding: 0px; float: left;
+}
+span.genericItemImage {
+	margin: 0px 8px 8px 0px; text-align: center; display: block;
+}
+span.genericItemImage img {
+	padding: 8px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+div.genericItemIntroText {
+	padding: 4px 0px 12px; line-height: inherit; font-size: inherit; font-weight: normal;
+}
+div.genericItemIntroText img {
+	
+}
+div.genericItemExtraFields {
+	
+}
+div.genericItemExtraFields h4 {
+	
+}
+div.genericItemExtraFields ul {
+	
+}
+div.genericItemExtraFields ul li {
+	
+}
+div.genericItemExtraFields ul li span.genericItemExtraFieldsLabel {
+	
+}
+div.genericItemExtraFields ul li span.genericItemExtraFieldsValue {
+	
+}
+div.genericItemCategory {
+	margin: 0px 8px 0px 0px; padding: 0px 8px 0px 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; display: inline;
+}
+div.genericItemCategory span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold;
+}
+div.genericItemCategory a {
+	
+}
+div.genericItemReadMore {
+	display: inline;
+}
+div.genericItemReadMore a {
+	background: url("../images/readon-bg.png") no-repeat left; padding-left: 18px;
+}
+div.genericItemReadMore a:hover {
+	background-image: url("../images/readon-hover-bg.png");
+}
+#k2Container div.gsc-branding-text {
+	text-align: right;
+}
+#k2Container div.gsc-control {
+	width: 100%;
+}
+#k2Container div.gs-visibleUrl {
+	display: none;
+}
+div.latestItemsContainer {
+	float: left;
+}
+div.latestItemsCategory {
+	background: rgb(247, 250, 254); margin: 0px 8px 8px 0px; padding: 8px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+div.latestItemsCategoryImage {
+	text-align: center;
+}
+div.latestItemsCategoryImage img {
+	background: rgb(255, 255, 255); margin: 0px 8px 0px 0px; padding: 4px; border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+div.latestItemsCategory h2 {
+	
+}
+div.latestItemsCategory p {
+	
+}
+div.latestItemsUser {
+	background: rgb(247, 250, 254); margin: 0px 8px 8px 0px; padding: 8px; border: 1px solid rgb(221, 221, 221); border-image: none; clear: both;
+}
+div.latestItemsUser img {
+	background: rgb(255, 255, 255); margin: 0px 8px 0px 0px; padding: 4px; border: 1px solid rgb(221, 221, 221); border-image: none; float: left; display: block;
+}
+div.latestItemsUser h2 {
+	
+}
+div.latestItemsUser p.latestItemsUserDescription {
+	padding: 4px 0px;
+}
+div.latestItemsUser p.latestItemsUserAdditionalInfo {
+	margin: 8px 0px 0px; padding: 4px 0px;
+}
+span.latestItemsUserURL {
+	color: rgb(85, 85, 85); font-weight: bold; display: block;
+}
+span.latestItemsUserEmail {
+	color: rgb(85, 85, 85); font-weight: bold; display: block;
+}
+div.latestItemList {
+	padding: 0px 8px 8px 0px;
+}
+div.latestItemView {
+	
+}
+div.latestItemHeader {
+	
+}
+div.latestItemHeader h3.latestItemTitle {
+	margin: 0px; padding: 10px 0px 4px; line-height: 110%; font-size: 24px; font-weight: normal;
+}
+span.latestItemDateCreated {
+	color: rgb(153, 153, 153); font-size: 11px;
+}
+div.latestItemBody {
+	margin: 0px; padding: 8px 0px;
+}
+div.latestItemImageBlock {
+	margin: 0px; padding: 0px; float: left;
+}
+span.latestItemImage {
+	margin: 0px 8px 8px 0px; text-align: center; display: block;
+}
+span.latestItemImage img {
+	padding: 8px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+div.latestItemIntroText {
+	padding: 4px 0px 12px; line-height: inherit; font-size: inherit; font-weight: normal;
+}
+div.latestItemIntroText img {
+	
+}
+div.latestItemLinks {
+	margin: 0px 0px 16px; padding: 0px;
+}
+div.latestItemCategory {
+	padding: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.latestItemCategory span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold;
+}
+div.latestItemCategory a {
+	
+}
+div.latestItemTagsBlock {
+	padding: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.latestItemTagsBlock span {
+	padding: 0px 4px 0px 0px; color: rgb(85, 85, 85); font-weight: bold;
+}
+div.latestItemTagsBlock ul.latestItemTags {
+	list-style: none; margin: 0px; padding: 0px; display: inline;
+}
+div.latestItemTagsBlock ul.latestItemTags li {
+	list-style: none; margin: 0px; padding: 0px 4px 0px 0px; text-align: center; display: inline;
+}
+div.latestItemTagsBlock ul.latestItemTags li a {
+	
+}
+div.latestItemTagsBlock ul.latestItemTags li a:hover {
+	
+}
+div.latestItemVideoBlock {
+	background: url("../images/system/videoplayer-bg.gif") repeat-x bottom rgb(1, 1, 1); margin: 0px 0px 16px; padding: 16px;
+}
+div.latestItemVideoBlock span.latestItemVideo {
+	display: block;
+}
+div.latestItemCommentsLink {
+	margin: 0px 8px 0px 0px; padding: 0px 8px 0px 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid; display: inline;
+}
+div.latestItemCommentsLink a {
+	
+}
+div.latestItemCommentsLink a:hover {
+	
+}
+div.latestItemReadMore {
+	display: inline;
+}
+div.latestItemReadMore a {
+	
+}
+div.latestItemReadMore a:hover {
+	
+}
+h2.latestItemTitleList {
+	margin: 8px 0px 2px; padding: 2px 0px; line-height: normal; font-family: Arial, Helvetica, sans-serif; font-size: 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.k2AccountPage {
+	
+}
+.k2AccountPage table {
+	
+}
+.k2AccountPage table tr th {
+	
+}
+.k2AccountPage table tr td {
+	
+}
+.k2AccountPage table tr td label {
+	white-space: nowrap;
+}
+img.k2AccountPageImage {
+	margin: 10px 0px; padding: 0px; border: 4px solid rgb(221, 221, 221); border-image: none; display: block;
+}
+.k2AccountPage div.k2AccountPageNotice {
+	padding: 8px;
+}
+.k2AccountPage div.k2AccountPageUpdate {
+	margin: 8px 0px; padding: 10px 0px; text-align: right; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dotted;
+}
+.k2AccountPage div.k2AccountPageUpdate .button {
+	background: rgb(51, 51, 51); padding: 5px 10px; border: 0px currentColor; border-image: none; color: rgb(255, 255, 255); text-transform: uppercase;
+}
+.k2AccountPage div.k2AccountPageUpdate .button:hover {
+	background: rgb(212, 43, 30); cursor: pointer;
+}
+.k2AccountPage th.k2ProfileHeading {
+	padding: 8px; text-align: left; font-size: 1.16em;
+}
+.k2AccountPage td#userAdminParams {
+	margin: 0px; padding: 0px;
+}
+.k2AccountPage table.admintable td.key {
+	width: 140px; text-align: right; color: rgb(102, 102, 102); font-weight: bold;
+}
+.k2AccountPage table.admintable td.paramlist_key {
+	width: 140px; text-align: right; color: rgb(102, 102, 102); font-weight: bold;
+}
+.k2AccountPage table.admintable {
+	
+}
+.k2AccountPage table.admintable tr td {
+	
+}
+.k2AccountPage table.admintable tr td .inputbox {
+	width: 200px;
+}
+.k2AccountPage table.admintable tr td span {
+	
+}
+.k2AccountPage table.admintable tr td span label {
+	
+}
+div.k2LatestCommentsBlock {
+	
+}
+div.k2LatestCommentsBlock ul {
+	
+}
+div.k2LatestCommentsBlock ul li {
+	
+}
+div.k2LatestCommentsBlock ul li.lastItem {
+	
+}
+div.k2LatestCommentsBlock ul li a.lcAvatar img {
+	
+}
+div.k2LatestCommentsBlock ul li a {
+	
+}
+div.k2LatestCommentsBlock ul li a:hover {
+	
+}
+div.k2LatestCommentsBlock ul li span.lcComment {
+	
+}
+div.k2LatestCommentsBlock ul li span.lcUsername {
+	
+}
+div.k2LatestCommentsBlock ul li span.lcCommentDate {
+	color: rgb(153, 153, 153);
+}
+div.k2LatestCommentsBlock ul li span.lcItemTitle {
+	
+}
+div.k2LatestCommentsBlock ul li span.lcItemCategory {
+	
+}
+div.k2TopCommentersBlock {
+	
+}
+div.k2TopCommentersBlock ul {
+	
+}
+div.k2TopCommentersBlock ul li {
+	
+}
+div.k2TopCommentersBlock ul li.lastItem {
+	
+}
+div.k2TopCommentersBlock ul li a.tcAvatar img {
+	
+}
+div.k2TopCommentersBlock ul li a.tcLink {
+	
+}
+div.k2TopCommentersBlock ul li a.tcLink:hover {
+	
+}
+div.k2TopCommentersBlock ul li span.tcUsername {
+	
+}
+div.k2TopCommentersBlock ul li span.tcCommentsCounter {
+	
+}
+div.k2TopCommentersBlock ul li a.tcLatestComment {
+	
+}
+div.k2TopCommentersBlock ul li a.tcLatestComment:hover {
+	
+}
+div.k2TopCommentersBlock ul li span.tcLatestCommentDate {
+	color: rgb(153, 153, 153);
+}
+div.k2ItemsBlock {
+	
+}
+div.k2ItemsBlock p.modulePretext {
+	
+}
+div.k2ItemsBlock ul {
+	margin: 0px;
+}
+div.k2ItemsBlock ul li {
+	list-style-type: none;
+}
+div.k2ItemsBlock ul li a {
+	
+}
+div.k2ItemsBlock ul li a:hover {
+	
+}
+div.k2ItemsBlock ul li.lastItem {
+	
+}
+div.k2ItemsBlock ul li a.moduleItemTitle {
+	font-size: 18px;
+}
+div.k2ItemsBlock ul li a.moduleItemTitle:hover {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemAuthor {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemAuthor a {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemAuthor a:hover {
+	
+}
+div.k2ItemsBlock ul li a.moduleItemAuthorAvatar img {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemIntrotext {
+	padding: 4px 0px; line-height: 120%; font-size: 12px; display: block;
+}
+div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img {
+	padding: 0px; margin-bottom: 10px; border-right-color: rgb(255, 255, 255); border-right-width: 0px; border-right-style: solid; float: left;
+}
+div.k2ItemsBlock ul li div.moduleItemIntrotext div.moduleItemText {
+	display: inline-block;
+}
+div.k2ItemsBlock ul li div.moduleItemExtraFields {
+	
+}
+div.moduleItemExtraFields ul {
+	
+}
+div.moduleItemExtraFields ul li {
+	
+}
+div.moduleItemExtraFields ul li span.moduleItemExtraFieldsLabel {
+	margin: 0px 4px 0px 0px; width: 30%; font-weight: bold; float: left; display: block;
+}
+div.moduleItemExtraFields ul li span.moduleItemExtraFieldsValue {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemVideo {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemVideo span.moduleItemVideoCaption {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemVideo span.moduleItemVideoCredits {
+	
+}
+div.k2ItemsBlock ul li span.moduleItemDateCreated {
+	
+}
+div.k2ItemsBlock ul li a.moduleItemCategory {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemTags {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemTags b {
+	
+}
+div.k2ItemsBlock ul li div.moduleItemTags a {
+	padding: 0px 2px;
+}
+div.k2ItemsBlock ul li div.moduleItemTags a:hover {
+	
+}
+div.k2ItemsBlock ul li div.moduleAttachments {
+	
+}
+div.k2ItemsBlock ul li a.moduleItemComments {
+	margin: 0px 8px 0px 0px; padding: 0px 4px 0px 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid;
+}
+div.k2ItemsBlock ul li a.moduleItemComments:hover {
+	
+}
+div.k2ItemsBlock ul li span.moduleItemHits {
+	margin: 0px 8px 0px 0px; padding: 0px 4px 0px 0px; border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid;
+}
+div.k2ItemsBlock ul li a.moduleItemReadMore {
+	text-transform: uppercase; font-size: 10px;
+}
+div.k2ItemsBlock ul li a.moduleItemReadMore:hover {
+	
+}
+div.k2ItemsBlock a.moduleCustomLink {
+	
+}
+div.k2ItemsBlock a.moduleCustomLink:hover {
+	
+}
+div.k2LoginBlock {
+	
+}
+div.k2LoginBlock p.preText {
+	
+}
+div.k2LoginBlock fieldset.input {
+	margin: 0px; padding: 0px;
+}
+div.k2LoginBlock fieldset.input p {
+	margin: 0px; padding: 0px 0px 4px;
+}
+div.k2LoginBlock fieldset.input p label {
+	font-weight: bold; display: block;
+}
+div.k2LoginBlock fieldset.input p#form-login-remember label {
+	font-weight: normal;
+}
+div.k2LoginBlock fieldset.input p input {
+	border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(221, 221, 221) rgb(221, 221, 221) rgb(204, 204, 204); border-image: none; width: 100%; font-weight: normal !important; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+div.k2LoginBlock fieldset.input p #modlgn_remember {
+	width: auto; float: left;
+}
+div.k2LoginBlock fieldset.input p#form-login-remember label {
+	display: inline;
+}
+div.k2LoginBlock fieldset.input p#form-login-remember input {
+	display: inline;
+}
+div.k2LoginBlock fieldset.input input.button {
+	background: rgb(51, 51, 51); padding: 5px 10px; border: 0px currentColor; border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; font-weight: bold;
+}
+div.k2LoginBlock fieldset.input input.button:hover {
+	background: rgb(212, 43, 30); cursor: pointer;
+}
+div.k2LoginBlock ul {
+	
+}
+div.k2LoginBlock ul li {
+	background: none; margin: 0px; padding: 0px;
+}
+div.k2LoginBlock ul li a {
+	background: url("../images/bullet-dark.gif") no-repeat left; padding-left: 8px;
+}
+div.k2LoginBlock ul li a:hover {
+	background-image: url("../images/bullet-red.gif");
+}
+div.k2LoginBlock ul li a:focus {
+	background-image: url("../images/bullet-red.gif");
+}
+div.k2LoginBlock ul li a:active {
+	background-image: url("../images/bullet-red.gif");
+}
+div.k2LoginBlock p.postText {
+	
+}
+div.k2UserBlock {
+	
+}
+div.k2UserBlock p.ubGreeting {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+div.k2UserBlock div.k2UserBlockDetails a.ubAvatar img {
+	
+}
+div.k2UserBlock div.k2UserBlockDetails span.ubName {
+	font-size: 14px; font-weight: bold; display: block;
+}
+div.k2UserBlock div.k2UserBlockDetails span.ubCommentsCount {
+	
+}
+div.k2UserBlock ul.k2UserBlockActions {
+	
+}
+div.k2UserBlock ul.k2UserBlockActions li {
+	
+}
+div.k2UserBlock ul.k2UserBlockActions li a {
+	
+}
+div.k2UserBlock ul.k2UserBlockActions li a:hover {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li a {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li a:hover {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li ul {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li ul li {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li ul li a {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li ul ul {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li ul ul li {
+	
+}
+div.k2UserBlock ul.k2UserBlockRenderedMenu li ul ul li a {
+	
+}
+div.k2UserBlock form {
+	
+}
+div.k2UserBlock form input.ubLogout {
+	
+}
+div.k2ArchivesBlock {
+	
+}
+div.k2ArchivesBlock ul {
+	margin: 0px; padding: 0px;
+}
+div.k2ArchivesBlock ul li {
+	background: none; padding: 5px 0px; margin-bottom: 0px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+div.k2ArchivesBlock ul li a {
+	background: url("../images/icons/icon-calendar.png") no-repeat left; padding-left: 20px;
+}
+div.k2AuthorsListBlock {
+	
+}
+div.k2AuthorsListBlock ul {
+	
+}
+div.k2AuthorsListBlock ul li {
+	
+}
+div.k2AuthorsListBlock ul li a.abAuthorAvatar img {
+	
+}
+div.k2AuthorsListBlock ul li a.abAuthorName {
+	
+}
+div.k2AuthorsListBlock ul li a.abAuthorName:hover {
+	
+}
+div.k2AuthorsListBlock ul li a.abAuthorLatestItem {
+	clear: both; display: block;
+}
+div.k2AuthorsListBlock ul li a.abAuthorLatestItem:hover {
+	
+}
+div.k2AuthorsListBlock ul li span.abAuthorCommentsCount {
+	
+}
+div.k2BreadcrumbsBlock {
+	
+}
+div.k2BreadcrumbsBlock span.bcTitle {
+	padding: 0px 4px 0px 0px; color: rgb(153, 153, 153);
+}
+div.k2BreadcrumbsBlock a {
+	
+}
+div.k2BreadcrumbsBlock a:hover {
+	
+}
+div.k2BreadcrumbsBlock span.bcSeparator {
+	padding: 0px 4px; font-size: 14px;
+}
+div.k2CalendarBlock {
+	height: 190px; margin-bottom: 8px;
+}
+div.k2CalendarLoader {
+	background: url("../images/system/k2CalendarLoader.gif") no-repeat 50% 50% rgb(255, 255, 255);
+}
+table.calendar {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 100%; border-collapse: collapse;
+}
+table.calendar tr td {
+	background: rgb(255, 255, 255); padding: 2px; border: 1px solid rgb(221, 221, 221); border-image: none; text-align: center; vertical-align: middle;
+}
+table.calendar tr td.calendarNavMonthPrev {
+	background: rgb(243, 243, 243); text-align: center;
+}
+table.calendar tr td.calendarNavMonthPrev a {
+	font-size: 20px; text-decoration: none;
+}
+table.calendar tr td.calendarNavMonthPrev a:hover {
+	font-size: 20px; text-decoration: none;
+}
+table.calendar tr td.calendarCurrentMonth {
+	background: rgb(243, 243, 243);
+}
+table.calendar tr td.calendarNavMonthNext {
+	background: rgb(243, 243, 243); text-align: center;
+}
+table.calendar tr td.calendarNavMonthNext a {
+	font-size: 20px; text-decoration: none;
+}
+table.calendar tr td.calendarNavMonthNext a:hover {
+	font-size: 20px; text-decoration: none;
+}
+table.calendar tr td.calendarDayName {
+	background: rgb(233, 233, 233); width: 14.2%; font-size: 11px;
+}
+table.calendar tr td.calendarDateEmpty {
+	background: rgb(251, 251, 251);
+}
+table.calendar tr td.calendarDate {
+	
+}
+table.calendar tr td.calendarDateLinked {
+	padding: 0px;
+}
+table.calendar tr td.calendarDateLinked a {
+	background: rgb(238, 238, 238); padding: 2px; text-decoration: none; display: block;
+}
+table.calendar tr td.calendarDateLinked a:hover {
+	background: rgb(51, 51, 51); padding: 2px; color: rgb(255, 255, 255); text-decoration: none; display: block;
+}
+table.calendar tr td.calendarToday {
+	background: rgb(212, 43, 30); color: rgb(255, 255, 255);
+}
+table.calendar tr td.calendarTodayLinked {
+	background: rgb(212, 43, 30); padding: 0px; color: rgb(255, 255, 255);
+}
+table.calendar tr td.calendarTodayLinked a {
+	padding: 2px; color: rgb(255, 255, 255); text-decoration: none; display: block;
+}
+table.calendar tr td.calendarTodayLinked a:hover {
+	background: rgb(191, 217, 255); padding: 2px; text-decoration: none; display: block;
+}
+div.k2CategorySelectBlock {
+	
+}
+div.k2CategorySelectBlock form select {
+	width: auto;
+}
+div.k2CategorySelectBlock form select option {
+	
+}
+div.k2CategoriesListBlock {
+	
+}
+div.k2CategoriesListBlock ul {
+	
+}
+div.k2CategoriesListBlock ul li {
+	
+}
+div.k2CategoriesListBlock ul li a {
+	
+}
+div.k2CategoriesListBlock ul li a:hover {
+	
+}
+div.k2CategoriesListBlock ul li a span.catTitle {
+	padding-right: 4px;
+}
+div.k2CategoriesListBlock ul li a span.catCounter {
+	
+}
+div.k2CategoriesListBlock ul li a:hover span.catTitle {
+	
+}
+div.k2CategoriesListBlock ul li a:hover span.catCounter {
+	
+}
+div.k2CategoriesListBlock ul li.activeCategory {
+	
+}
+div.k2CategoriesListBlock ul li.activeCategory a {
+	font-weight: bold;
+}
+ul.level0 {
+	
+}
+ul.level0 li {
+	
+}
+ul.level0 li a {
+	
+}
+ul.level0 li a:hover {
+	
+}
+ul.level0 li a span {
+	
+}
+ul.level0 li a:hover span {
+	
+}
+ul.level1 {
+	
+}
+ul.level1 li {
+	
+}
+ul.level1 li a {
+	
+}
+ul.level1 li a:hover {
+	
+}
+ul.level1 li a span {
+	
+}
+ul.level1 li a:hover span {
+	
+}
+div.k2SearchBlock {
+	position: relative;
+}
+div.k2SearchBlock form {
+	
+}
+div.k2SearchBlock form input.inputbox {
+	
+}
+div.k2SearchBlock form input.button {
+	
+}
+div.k2SearchBlock form input.k2SearchLoading {
+	background: url("../images/system/searchLoader.gif") no-repeat 100% 50%;
+}
+div.k2SearchBlock div.k2LiveSearchResults {
+	background: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); border-image: none; margin-top: -1px; display: none; position: absolute; z-index: 99;
+}
+div.k2SearchBlock div.k2LiveSearchResults ul.liveSearchResults {
+	list-style: none; margin: 0px; padding: 0px;
+}
+div.k2SearchBlock div.k2LiveSearchResults ul.liveSearchResults li {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+div.k2SearchBlock div.k2LiveSearchResults ul.liveSearchResults li a {
+	padding: 1px 2px; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: dotted; display: block;
+}
+div.k2SearchBlock div.k2LiveSearchResults ul.liveSearchResults li a:hover {
+	background: rgb(255, 255, 240);
+}
+div.k2TagCloudBlock {
+	padding: 8px 0px;
+}
+div.k2TagCloudBlock a {
+	padding: 4px; line-height: 1; float: left; display: block;
+}
+div.k2TagCloudBlock a:hover {
+	background: rgb(240, 240, 240); padding: 4px; border-radius: 5px; color: rgb(212, 43, 30); text-decoration: none; float: left; display: block; text-shadow: 1px 1px 0px #fff;
+}
+div.k2CustomCodeBlock {
+	
+}
+div.k2UsersBlock {
+	
+}
+div.k2UsersBlock ul {
+	margin: 0px; padding: 0px;
+}
+div.k2UsersBlock ul li {
+	background: none; margin: 0px; padding: 0px;
+}
+div.k2UsersBlock ul li.lastItem {
+	
+}
+div.k2UsersBlock ul li a.ubUserAvatar img {
+	margin: 5px 10px 0px 0px;
+}
+div.k2UsersBlock ul li a.ubUserName {
+	font-weight: bold;
+}
+div.k2UsersBlock ul li a.ubUserName:hover {
+	
+}
+div.k2UsersBlock ul li div.ubUserDescription {
+	
+}
+div.k2UsersBlock ul li div.ubUserAdditionalInfo {
+	
+}
+a.ubUserFeedIcon {
+	background: url("../images/fugue/feed.png") no-repeat 50% 50%; margin: 0px 2px 0px 0px; padding: 0px; width: 16px; height: 16px; display: inline-block;
+}
+a.ubUserFeedIcon:hover {
+	background: url("../images/fugue/feed.png") no-repeat 50% 50%; margin: 0px 2px 0px 0px; padding: 0px; width: 16px; height: 16px; display: inline-block;
+}
+a.ubUserFeedIcon span {
+	display: none;
+}
+a.ubUserFeedIcon:hover span {
+	display: none;
+}
+a.ubUserURL {
+	background: url("../images/fugue/globe.png") no-repeat 50% 50%; margin: 0px 2px 0px 0px; padding: 0px; width: 16px; height: 16px; display: inline-block;
+}
+a.ubUserURL:hover {
+	background: url("../images/fugue/globe.png") no-repeat 50% 50%; margin: 0px 2px 0px 0px; padding: 0px; width: 16px; height: 16px; display: inline-block;
+}
+a.ubUserURL span {
+	display: none;
+}
+a.ubUserURL:hover span {
+	display: none;
+}
+span.ubUserEmail {
+	background: url("../images/fugue/mail.png") no-repeat 50% 50%; margin: 0px 2px 0px 0px; padding: 0px; width: 16px; height: 16px; overflow: hidden; display: inline-block;
+}
+span.ubUserEmail a {
+	margin: 0px; padding: 0px; width: 16px; height: 16px; text-indent: -9999px; display: inline-block;
+}
+div.k2UsersBlock ul li h3 {
+	margin: 8px 0px 5px; padding: 0px; clear: both; font-size: 1em;
+}
+div.k2UsersBlock ul li ul.ubUserItems li a {
+	background: url("../images/bullet-dark.gif") no-repeat left; padding-left: 8px;
+}
+div.k2UsersBlock ul li ul.ubUserItems li a:hover {
+	background-image: url("../images/bullet-red.gif");
+}
+div.k2UsersBlock ul li ul.ubUserItems li a:focus {
+	background-image: url("../images/bullet-red.gif");
+}
+div.k2UsersBlock ul li ul.ubUserItems li a:active {
+	background-image: url("../images/bullet-red.gif");
+}

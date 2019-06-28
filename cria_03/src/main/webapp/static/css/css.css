@@ -1,0 +1,54 @@
+.bfClearfix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+		}
+
+		.bfFadingClass{
+		display:none;
+		}
+
+		.container{max-width:1170px}
+		a,span,div{font-family:'Lato';}
+		#sp-header-wrapper{background: rgb(33, 90, 54) !important; padding: 10px !important; }
+
+		#sp-header-wrapper{background: rgb(33, 90, 54) !important; padding: 10px !important; }
+
+		#sp-header-wrapper{background: rgb(33, 90, 54) !important; padding: 10px !important; }
+
+		#sp-main-body-wrapper{background: rgba(246, 180, 74, 0) !important; }
+
+		#sp-header-wrapper{background: rgb(33, 90, 54) !important; padding: 10px !important; }
+
+		#sp-main-body-wrapper{background: rgba(246, 180, 74, 0) !important; }
+
+		#sp-header-wrapper{background: rgb(33, 90, 54) !important; padding: 10px !important; }
+
+		#sp-main-body-wrapper{background: rgba(246, 180, 74, 0) !important; }
+
+		#sp-footer2-wrapper{background: rgb(231, 233, 234) !important; }
+
+		#sp-footer-wrapper{background: rgb(33, 90, 54) !important; padding: 5px !important; }
+
+		#sp-footer-wrapper a{color: rgb(255, 255, 255) !important; }
+
+		#accordeonck162 li > .accordeonck_outer .toggler_icon  { outline: none;background: url(/modules/mod_accordeonck/assets/plus.png) right center no-repeat !important; }
+		#accordeonck162 li.open > .accordeonck_outer .toggler_icon { background: url(/modules/mod_accordeonck/assets/minus.png) right center no-repeat !important; }
+		#accordeonck162 li ul li ul li ul { border:none !important; padding-top:0px !important; padding-bottom:0px !important; }
+		#accordeonck162 { padding: 5px;padding: 5px;padding: 5px;padding: 5px;margin: 0px;margin: 0px;margin: 0px;margin: 0px;background: #F0F0F0;background-color: #F0F0F0;background: -moz-linear-gradient(top,  #F0F0F0 0%, #E3E3E3 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F0F0F0), color-stop(100%,#E3E3E3)); background: -webkit-linear-gradient(top,  #F0F0F0 0%,#E3E3E3 100%);background: -o-linear-gradient(top,  #F0F0F0 0%,#E3E3E3 100%);background: -ms-linear-gradient(top,  #F0F0F0 0%,#E3E3E3 100%);background: linear-gradient(top,  #F0F0F0 0%,#E3E3E3 100%); -moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;-moz-box-shadow: 0px 0px 3px 0px #444444;-webkit-box-shadow: 0px 0px 3px 0px #444444;box-shadow: 0px 0px 3px 0px #444444; } 
+		#accordeonck162 li.parent > span { display: block; position: relative; }
+		#accordeonck162 li.parent > span span.toggler_icon { position: absolute; cursor: pointer; display: block; height: 100%; z-index: 10;right:0; background: none;width: 20px;}
+		#accordeonck162 li.level1 { padding: 0px;padding: 0px;padding: 0px;padding: 0px;margin: 0px;margin: 0px;margin: 0px;margin: 0px;-moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none; } 
+		#accordeonck162 li.level1 > .accordeonck_outer a { font-size: 12px; } 
+		#accordeonck162 li.level1 > .accordeonck_outer a:hover {  } 
+		#accordeonck162 li.level1 > .accordeonck_outer a span.accordeonckdesc { font-size: 10px; } 
+		#accordeonck162 li.level2 { padding: 0px;padding: 0px;padding: 0px;padding: 0px;margin: 0px;margin: 0px;margin: 0px;margin: 0px;-moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none; } 
+		#accordeonck162 li.level2 > .accordeonck_outer a { font-size: 12px; } 
+		#accordeonck162 li.level2 > .accordeonck_outer a:hover {  } 
+		#accordeonck162 li.level2 > .accordeonck_outer a span.accordeonckdesc { font-size: 10px; } 
+		#accordeonck162 li.level3 { padding: 0px;padding: 0px;padding: 0px;padding: 0px;margin: 0px;margin: 0px;margin: 0px;margin: 0px;-moz-border-radius: 0px 0px 0px 0px;-webkit-border-radius: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none; } 
+		#accordeonck162 li.level3 .accordeonck_outer a { font-size: 12px; } 
+		#accordeonck162 li.level3 .accordeonck_outer a:hover {  } 
+		#accordeonck162 li.level3 .accordeonck_outer a span.accordeonckdesc { font-size: 10px; } 

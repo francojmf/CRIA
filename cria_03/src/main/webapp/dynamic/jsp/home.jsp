@@ -37,7 +37,8 @@
     <SCRIPT src="static/js/scripts.js" type="text/javascript"></SCRIPT>  
     <title>Home</title>
         <% Usuario u = (Usuario)request.getAttribute("usuarioLogado"); %>
-        <%@include file= "menu.jsp" %>      
+        <%@include file= "menu.jsp" %> 
+        <% String usuario =  u.getNomeUsuario(); %> 
         <div class="custom" content="text/html; charset=utf-8">
             <p>Olá usuário <%= u.getNome() %></p>
             <p>Seu e-mail cadastrado é: <%= u.getNomeUsuario() %></p>
@@ -71,9 +72,10 @@
     <SECTION>
             <DIV class="container">
             <DIV class="row-fluid" id="breadcrumb">
-        <BUTTON class="bfSubmitButton btn btn-primary pull-left button">
-            <SPAN href="${pageContext.request.contextPath}">Sair</SPAN>
-        </BUTTON>  
+            <BUTTON class="bfSubmitButton btn btn-primary pull-left button" 
+        id="bfSubmitButton" onclick="history.back();"
+        type="button" value="Colaborador">
+        <SPAN>Voltar</SPAN></BUTTON>    
             </DIV></DIV>
     </SECTION>
     </body>

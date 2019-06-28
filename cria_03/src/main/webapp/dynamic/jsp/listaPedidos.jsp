@@ -1,4 +1,14 @@
-﻿<!DOCTYPE HTML>
+﻿<%@page contentType="text/html"%> 
+<%@page pageEncoding="UTF-8"%>  
+ 
+<!--Chamada aos TLD's de cada pacote JSTL --> 
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> 
+<%@taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%> 
+ 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd"> 
+
+<!DOCTYPE HTML>
 
 <HTML class="no-js" lang="pt-br" prefix="og: http://ogp.me/ns#">
 <HEAD><META content="IE=11.0000" http-equiv="X-UA-Compatible">
@@ -8,7 +18,7 @@
 	<META name="viewport" content="width=device-width, initial-scale=1.0">	 
 	<META name="GENERATOR" content="MSHTML 11.00.9600.19326">
 	 
-	<TITLE>Menu Administrador</TITLE>
+	<TITLE>Lista de Pedidos</TITLE>
 
 	<LINK href="/templates/shaper_helix_ii/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">	 
 	<LINK href="css/k2.fonts.css" rel="stylesheet" type="text/css">	 
@@ -74,65 +84,76 @@
 	</HEADER>
 
 	<SECTION 
-		class=" " id="sp-breadcrumb-wrapper">
+		class="container" id="sp-breadcrumb-wrapper">
 		<DIV class="container">
 		<DIV class="row-fluid" id="breadcrumb">
 		<DIV class="span8" id="sp-breadcrumb">
-			<UL class="container">
-
-		<H2>Menu Colaborador (Administrador)</H2>
-		<P><BR> Nesta página é possivel ter acesso aos dados pessoais de cadastro
-		e alterar dados que necessitem atualização.<BR>
-		<BUTTON class="bfCancelButton btn btn-secondary pull-left button" 
-		onclick="window.location=('../formulario01.htm');" type="submit" value="Alterar Cadastro">
-		<SPAN>Visualizar Cadastro</SPAN></BUTTON></P><BR><BR>
-		<P>Os pedidos feitos ficarão arquivados no sistema e pode ser acessado o andamento 
-		de cada pedido, cujo status poderá ser atualizado por um gerente da equipe de produção.
-		<BR>
-		<BUTTON class="bfCancelButton btn btn-secondary pull-left button" 
-		onclick="window.location=('listaPedidos04.htm');" type="submit" value="Relatório de Pedidos">
-		<SPAN>Visualizar Pedidos</SPAN></BUTTON><BR><BR>
-		<P>Aqui pode ser atualizado o status dos pedidos e 
-		outros campos editáveis. 
-		<BR>
-		<BUTTON class="bfCancelButton btn btn-secondary pull-left button" 
-		onclick="window.location=('listaPedidos04.htm');" type="submit" value="Status de Pedidos">
-		<SPAN>Atualizar Status</SPAN></BUTTON><BR><BR>
-		<P>Aqui pode ser visualizado o relatório de acessos
-		ao Sistema CRIA. 
-		<BR>
-		<BUTTON class="bfCancelButton btn btn-secondary pull-left button" 
-		onclick="window.location=('listaAcessos01.htm');" type="submit" value="Relatório acessos">
-		<SPAN>Relatório de acessos</SPAN></BUTTON><BR><BR>
-		<P>Aqui pode ser visualizada a lista de usuários Colaboradores
-		e autorizados os pedidos de cadastro. 
-		<BR>
-		<BUTTON class="bfCancelButton btn btn-secondary pull-left button" 
-		onclick="window.location=('../dynamic/jsp/listaUsuarios.jsp');" type="submit" value="Verificar Colaboradores">
-		<SPAN>Verificar Colaboradores</SPAN></BUTTON><BR><BR>
-		<P>Aqui pode ser visualizada a lista de usuários Entidade
-		e autorizados os pedidos de cadastro. 
-		<BR>
-		<BUTTON class="bfCancelButton btn btn-secondary pull-left button" 
-		onclick="window.location=('listaUsuarios02.htm');" type="submit" value="Verificar Entidades">
-		<SPAN>Verificar Entidades</SPAN></BUTTON><BR>
-		</P>
+			<UL class="breadcrumb">
+				<H2>Lista de Pedidos CRIA</H2>
 			</UL>
 		</DIV>
-		<DIV class="gap"></DIV>
-		</DIV></DIV></DIV>
+		<DIV class="gap"></DIV></DIV></DIV>
 	</SECTION>
+
+	<SECTION class="container" id="Pedido">
+<table>
+  <c:forEach items="${list}" var="item">
+    <tr>
+      <td><c:out value="${item}" /></td>
+    </tr>
+  </c:forEach>
+</table>
+	</SECTION>	
+
+	<SECTION class="container" id="Pedido">
+		<DIV>
+        <table>
+            <tr>
+                <th> Pedido </th>
+                <th> Criança  </th>
+                <th> Nome </th>
+                <th> A </th>
+                <th> B </th>
+                <th> C </th>
+                <th> D </th>
+                <th> E </th>
+                <th> F </th>
+
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>001</td>
+                <td>Luis Silva</td>
+                <td>36</td>
+                <td>25</td>
+                <td>30</td>
+                <td>28</td>
+                <td>14</td>
+                <td>25</td>
+
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>002</td>
+                <td>Felipe Santos</td>
+                <td>34</td>
+                <td>24</td>
+                <td>28</td>
+                <td>26</td>
+                <td>13</td>
+                <td>24</td>
+
+            </tr>
+        </table>
+		</DIV>
+	</SECTION>
+
 	<SECTION>
 	<DIV class="form-actions">
-		<BUTTON class="bfCancelButton btn btn-secondary pull-left button" 
-		onclick="window.location=('menu01.htm');" type="submit" value="Menu Colaborador">
-		<SPAN>Colaborador</SPAN></BUTTON> 
-
-        <BUTTON class="bfSubmitButton btn btn-primary pull-left button" 
-        id="bfSubmitButton" onclick="history.back();"
-        type="button" value="Colaborador">
-        <SPAN>Voltar</SPAN></BUTTON>    
-
+		<BUTTON class="bfSubmitButton btn btn-primary pull-left button" 
+		id="bfSubmitButton" onclick="window.location=('menu02.htm');" 
+		type="button" value="Logout">
+		<SPAN>Voltar</SPAN></BUTTON>
 	</DIV></DIV>
 	</SECTION>
 

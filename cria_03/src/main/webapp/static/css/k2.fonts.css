@@ -1,0 +1,1119 @@
+@font-face {
+	font-family: simple-line-icons;
+	src: url(../fonts/Simple-Line-Icons.eot?#iefix&v=2.2.2) format("embedded-opentype"), url(../fonts/Simple-Line-Icons.ttf?v=2.2.2) format("truetype"), url(../fonts/Simple-Line-Icons.woff2?v=2.2.2) format("woff2"), url(../fonts/Simple-Line-Icons.woff?v=2.2.2) format("woff"), url(../fonts/Simple-Line-Icons.svg?v=2.2.2#simple-line-icons) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+.k2icon-user {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-people {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-user-female {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-user-follow {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-user-following {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-user-unfollow {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-login {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-logout {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-emotsmile {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-phone {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-call-end {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-call-in {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+a#fontIncrease::before {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+a#fontDecrease::before {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-call-out {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-map {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-location-pin {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-direction {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-directions {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-compass {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-layers {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-menu {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-list {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-options-vertical {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-options {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-arrow-down {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-arrow-left {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-arrow-right {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-arrow-up {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-arrow-up-circle {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-arrow-left-circle {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-arrow-right-circle {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-arrow-down-circle {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-check {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-clock {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-plus {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-close {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-trophy {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-screen-smartphone {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-screen-desktop {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-plane {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-notebook {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-mustache {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-mouse {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-magnet {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-energy {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-disc {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-cursor {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-cursor-move {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-crop {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-chemistry {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-speedometer {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-shield {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-screen-tablet {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-magic-wand {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-hourglass {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-graduation {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-ghost {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-game-controller {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-fire {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-eyeglass {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-envelope-open {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-envelope-letter {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-bell {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-badge {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-anchor {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-wallet {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-vector {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-speech {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-puzzle {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-printer {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-present {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-playlist {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-pin {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-picture {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-handbag {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-globe-alt {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-globe {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-folder-alt {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-folder {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-film {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-feed {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-drop {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-drawer {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-docs {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-doc {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-diamond {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-cup {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-calculator {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-bubbles {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-briefcase {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-book-open {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-basket-loaded {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-basket {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-bag {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-action-undo {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-action-redo {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-wrench {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-umbrella {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-trash {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-tag {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-support {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-frame {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-size-fullscreen {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-size-actual {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-shuffle {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-share-alt {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-share {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-rocket {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-question {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-pie-chart {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-pencil {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-note {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-loop {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-home {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-grid {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-graph {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-microphone {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-music-tone-alt {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-music-tone {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-earphones-alt {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-earphones {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-equalizer {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-like {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-dislike {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-control-start {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-control-rewind {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-control-play {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-control-pause {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-control-forward {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-control-end {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-volume-1 {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-volume-2 {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-volume-off {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-calendar {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-bulb {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-chart {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-ban {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-bubble {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-camrecorder {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-camera {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-cloud-download {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-cloud-upload {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-envelope {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-eye {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-flag {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-heart {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-info {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-key {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-link {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-lock {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-lock-open {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-magnifier {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-magnifier-add {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-magnifier-remove {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-paper-clip {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-paper-plane {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-power {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-refresh {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-reload {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-settings {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-star {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-symbol-female {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-symbol-male {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-target {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-credit-card {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-paypal {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-tumblr {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-twitter {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-facebook {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-instagram {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-linkedin {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-pinterest {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-github {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-gplus {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-reddit {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-skype {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-dribbble {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-behance {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-foursqare {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-soundcloud {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-spotify {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-stumbleupon {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-youtube {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-social-dropbox {
+	text-transform: none; line-height: 1; font-family: "simple-line-icons"; font-style: normal; font-variant: normal; font-weight: 400; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.k2icon-user::before {
+	content: "\e005";
+}
+.k2icon-people::before {
+	content: "\e001";
+}
+.k2icon-user-female::before {
+	content: "\e000";
+}
+.k2icon-user-follow::before {
+	content: "\e002";
+}
+.k2icon-user-following::before {
+	content: "\e003";
+}
+.k2icon-user-unfollow::before {
+	content: "\e004";
+}
+.k2icon-login::before {
+	content: "\e066";
+}
+.k2icon-logout::before {
+	content: "\e065";
+}
+.k2icon-emotsmile::before {
+	content: "\e021";
+}
+.k2icon-phone::before {
+	content: "\e600";
+}
+.k2icon-call-end::before {
+	content: "\e048";
+}
+.k2icon-call-in::before {
+	content: "\e047";
+}
+.k2icon-call-out::before {
+	content: "\e046";
+}
+.k2icon-map::before {
+	content: "\e033";
+}
+.k2icon-location-pin::before {
+	content: "\e096";
+}
+.k2icon-direction::before {
+	content: "\e042";
+}
+.k2icon-directions::before {
+	content: "\e041";
+}
+.k2icon-compass::before {
+	content: "\e045";
+}
+.k2icon-layers::before {
+	content: "\e034";
+}
+.k2icon-menu::before {
+	content: "\e601";
+}
+.k2icon-list::before {
+	content: "\e067";
+}
+.k2icon-options-vertical::before {
+	content: "\e602";
+}
+.k2icon-options::before {
+	content: "\e603";
+}
+.k2icon-arrow-down::before {
+	content: "\e604";
+}
+.k2icon-arrow-left::before {
+	content: "\e605";
+}
+.k2icon-arrow-right::before {
+	content: "\e606";
+}
+.k2icon-arrow-up::before {
+	content: "\e607";
+}
+.k2icon-arrow-up-circle::before {
+	content: "\e078";
+}
+.k2icon-arrow-left-circle::before {
+	content: "\e07a";
+}
+.k2icon-arrow-right-circle::before {
+	content: "\e079";
+}
+.k2icon-arrow-down-circle::before {
+	content: "\e07b";
+}
+.k2icon-check::before {
+	content: "\e080";
+}
+.k2icon-clock::before {
+	content: "\e081";
+}
+.k2icon-plus::before {
+	content: "\e095";
+}
+.k2icon-close::before {
+	content: "\e082";
+}
+.k2icon-trophy::before {
+	content: "\e006";
+}
+.k2icon-screen-smartphone::before {
+	content: "\e010";
+}
+.k2icon-screen-desktop::before {
+	content: "\e011";
+}
+.k2icon-plane::before {
+	content: "\e012";
+}
+.k2icon-notebook::before {
+	content: "\e013";
+}
+.k2icon-mustache::before {
+	content: "\e014";
+}
+.k2icon-mouse::before {
+	content: "\e015";
+}
+.k2icon-magnet::before {
+	content: "\e016";
+}
+.k2icon-energy::before {
+	content: "\e020";
+}
+.k2icon-disc::before {
+	content: "\e022";
+}
+.k2icon-cursor::before {
+	content: "\e06e";
+}
+.k2icon-cursor-move::before {
+	content: "\e023";
+}
+.k2icon-crop::before {
+	content: "\e024";
+}
+.k2icon-chemistry::before {
+	content: "\e026";
+}
+.k2icon-speedometer::before {
+	content: "\e007";
+}
+.k2icon-shield::before {
+	content: "\e00e";
+}
+.k2icon-screen-tablet::before {
+	content: "\e00f";
+}
+.k2icon-magic-wand::before {
+	content: "\e017";
+}
+.k2icon-hourglass::before {
+	content: "\e018";
+}
+.k2icon-graduation::before {
+	content: "\e019";
+}
+.k2icon-ghost::before {
+	content: "\e01a";
+}
+.k2icon-game-controller::before {
+	content: "\e01b";
+}
+.k2icon-fire::before {
+	content: "\e01c";
+}
+.k2icon-eyeglass::before {
+	content: "\e01d";
+}
+.k2icon-envelope-open::before {
+	content: "\e01e";
+}
+.k2icon-envelope-letter::before {
+	content: "\e01f";
+}
+.k2icon-bell::before {
+	content: "\e027";
+}
+.k2icon-badge::before {
+	content: "\e028";
+}
+.k2icon-anchor::before {
+	content: "\e029";
+}
+.k2icon-wallet::before {
+	content: "\e02a";
+}
+.k2icon-vector::before {
+	content: "\e02b";
+}
+.k2icon-speech::before {
+	content: "\e02c";
+}
+.k2icon-puzzle::before {
+	content: "\e02d";
+}
+.k2icon-printer::before {
+	content: "\e02e";
+}
+.k2icon-present::before {
+	content: "\e02f";
+}
+.k2icon-playlist::before {
+	content: "\e030";
+}
+.k2icon-pin::before {
+	content: "\e031";
+}
+.k2icon-picture::before {
+	content: "\e032";
+}
+.k2icon-handbag::before {
+	content: "\e035";
+}
+.k2icon-globe-alt::before {
+	content: "\e036";
+}
+.k2icon-globe::before {
+	content: "\e037";
+}
+.k2icon-folder-alt::before {
+	content: "\e039";
+}
+.k2icon-folder::before {
+	content: "\e089";
+}
+.k2icon-film::before {
+	content: "\e03a";
+}
+.k2icon-feed::before {
+	content: "\e03b";
+}
+.k2icon-drop::before {
+	content: "\e03e";
+}
+.k2icon-drawer::before {
+	content: "\e03f";
+}
+.k2icon-docs::before {
+	content: "\e040";
+}
+.k2icon-doc::before {
+	content: "\e085";
+}
+.k2icon-diamond::before {
+	content: "\e043";
+}
+.k2icon-cup::before {
+	content: "\e044";
+}
+.k2icon-calculator::before {
+	content: "\e049";
+}
+.k2icon-bubbles::before {
+	content: "\e04a";
+}
+.k2icon-briefcase::before {
+	content: "\e04b";
+}
+.k2icon-book-open::before {
+	content: "\e04c";
+}
+.k2icon-basket-loaded::before {
+	content: "\e04d";
+}
+.k2icon-basket::before {
+	content: "\e04e";
+}
+.k2icon-bag::before {
+	content: "\e04f";
+}
+.k2icon-action-undo::before {
+	content: "\e050";
+}
+.k2icon-action-redo::before {
+	content: "\e051";
+}
+.k2icon-wrench::before {
+	content: "\e052";
+}
+.k2icon-umbrella::before {
+	content: "\e053";
+}
+.k2icon-trash::before {
+	content: "\e054";
+}
+.k2icon-tag::before {
+	content: "\e055";
+}
+.k2icon-support::before {
+	content: "\e056";
+}
+.k2icon-frame::before {
+	content: "\e038";
+}
+.k2icon-size-fullscreen::before {
+	content: "\e057";
+}
+.k2icon-size-actual::before {
+	content: "\e058";
+}
+.k2icon-shuffle::before {
+	content: "\e059";
+}
+.k2icon-share-alt::before {
+	content: "\e05a";
+}
+.k2icon-share::before {
+	content: "\e05b";
+}
+.k2icon-rocket::before {
+	content: "\e05c";
+}
+.k2icon-question::before {
+	content: "\e05d";
+}
+.k2icon-pie-chart::before {
+	content: "\e05e";
+}
+.k2icon-pencil::before {
+	content: "\e05f";
+}
+.k2icon-note::before {
+	content: "\e060";
+}
+.k2icon-loop::before {
+	content: "\e064";
+}
+.k2icon-home::before {
+	content: "\e069";
+}
+.k2icon-grid::before {
+	content: "\e06a";
+}
+.k2icon-graph::before {
+	content: "\e06b";
+}
+.k2icon-microphone::before {
+	content: "\e063";
+}
+.k2icon-music-tone-alt::before {
+	content: "\e061";
+}
+.k2icon-music-tone::before {
+	content: "\e062";
+}
+.k2icon-earphones-alt::before {
+	content: "\e03c";
+}
+.k2icon-earphones::before {
+	content: "\e03d";
+}
+.k2icon-equalizer::before {
+	content: "\e06c";
+}
+.k2icon-like::before {
+	content: "\e068";
+}
+.k2icon-dislike::before {
+	content: "\e06d";
+}
+.k2icon-control-start::before {
+	content: "\e06f";
+}
+.k2icon-control-rewind::before {
+	content: "\e070";
+}
+.k2icon-control-play::before {
+	content: "\e071";
+}
+.k2icon-control-pause::before {
+	content: "\e072";
+}
+.k2icon-control-forward::before {
+	content: "\e073";
+}
+.k2icon-control-end::before {
+	content: "\e074";
+}
+.k2icon-volume-1::before {
+	content: "\e09f";
+}
+.k2icon-volume-2::before {
+	content: "\e0a0";
+}
+.k2icon-volume-off::before {
+	content: "\e0a1";
+}
+.k2icon-calendar::before {
+	content: "\e075";
+}
+.k2icon-bulb::before {
+	content: "\e076";
+}
+.k2icon-chart::before {
+	content: "\e077";
+}
+.k2icon-ban::before {
+	content: "\e07c";
+}
+.k2icon-bubble::before {
+	content: "\e07d";
+}
+.k2icon-camrecorder::before {
+	content: "\e07e";
+}
+.k2icon-camera::before {
+	content: "\e07f";
+}
+.k2icon-cloud-download::before {
+	content: "\e083";
+}
+.k2icon-cloud-upload::before {
+	content: "\e084";
+}
+.k2icon-envelope::before {
+	content: "\e086";
+}
+.k2icon-eye::before {
+	content: "\e087";
+}
+.k2icon-flag::before {
+	content: "\e088";
+}
+.k2icon-heart::before {
+	content: "\e08a";
+}
+.k2icon-info::before {
+	content: "\e08b";
+}
+.k2icon-key::before {
+	content: "\e08c";
+}
+.k2icon-link::before {
+	content: "\e08d";
+}
+.k2icon-lock::before {
+	content: "\e08e";
+}
+.k2icon-lock-open::before {
+	content: "\e08f";
+}
+.k2icon-magnifier::before {
+	content: "\e090";
+}
+.k2icon-magnifier-add::before {
+	content: "\e091";
+}
+a#fontIncrease::before {
+	content: "\e091";
+}
+.k2icon-magnifier-remove::before {
+	content: "\e092";
+}
+a#fontDecrease::before {
+	content: "\e092";
+}
+.k2icon-paper-clip::before {
+	content: "\e093";
+}
+.k2icon-paper-plane::before {
+	content: "\e094";
+}
+.k2icon-power::before {
+	content: "\e097";
+}
+.k2icon-refresh::before {
+	content: "\e098";
+}
+.k2icon-reload::before {
+	content: "\e099";
+}
+.k2icon-settings::before {
+	content: "\e09a";
+}
+.k2icon-star::before {
+	content: "\e09b";
+}
+.k2icon-symbol-female::before {
+	content: "\e09c";
+}
+.k2icon-symbol-male::before {
+	content: "\e09d";
+}
+.k2icon-target::before {
+	content: "\e09e";
+}
+.k2icon-credit-card::before {
+	content: "\e025";
+}
+.k2icon-paypal::before {
+	content: "\e608";
+}
+.k2icon-social-tumblr::before {
+	content: "\e00a";
+}
+.k2icon-social-twitter::before {
+	content: "\e009";
+}
+.k2icon-social-facebook::before {
+	content: "\e00b";
+}
+.k2icon-social-instagram::before {
+	content: "\e609";
+}
+.k2icon-social-linkedin::before {
+	content: "\e60a";
+}
+.k2icon-social-pinterest::before {
+	content: "\e60b";
+}
+.k2icon-social-github::before {
+	content: "\e60c";
+}
+.k2icon-social-gplus::before {
+	content: "\e60d";
+}
+.k2icon-social-reddit::before {
+	content: "\e60e";
+}
+.k2icon-social-skype::before {
+	content: "\e60f";
+}
+.k2icon-social-dribbble::before {
+	content: "\e00d";
+}
+.k2icon-social-behance::before {
+	content: "\e610";
+}
+.k2icon-social-foursqare::before {
+	content: "\e611";
+}
+.k2icon-social-soundcloud::before {
+	content: "\e612";
+}
+.k2icon-social-spotify::before {
+	content: "\e613";
+}
+.k2icon-social-stumbleupon::before {
+	content: "\e614";
+}
+.k2icon-social-youtube::before {
+	content: "\e008";
+}
+.k2icon-social-dropbox::before {
+	content: "\e00c";
+}
+.k2-loader {
+	animation:fa-spin 2s linear infinite; -webkit-animation: fa-spin 2s infinite linear;
+}
