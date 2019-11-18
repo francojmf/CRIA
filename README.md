@@ -1,7 +1,7 @@
 # CRIA
-Projeto CRIA
+Sistema Web do Projeto Cadeira de Rodas Infantil Automatizada.          
 
-Arquivos de Build com  Gradle, Servlet, JSP e HTML.
+Arquivos de Build com  Maven, Spring Boot, JPA Hibernate, Bootstrapp, CSS e HTML.
 
 É esperado que o desenvolvimento de um protótipo de baixo custo possa diminuir a falta de acesso à cadeira de rodas infantil, que muitas vezes impossibilita a criança com deficiência motora de frequentar uma escola e sua inclusão na sociedade.
 
